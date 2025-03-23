@@ -1,17 +1,17 @@
 class Solution {
 public:
     vector<int> getConcatenation(vector<int>& nums) {
-        // Method 1:
-        // vector<int> ans = nums;
-        // ans.insert(ans.end(), nums.begin(), nums.end());
-        // return ans;
         
-        vector<int> ans(2 * nums.size());
-        for(int i = 0; i < nums.size(); i++) {
-            ans[i] = nums[i];
-            ans[i + nums.size()] = nums[i];
-        }
+        vector<int> ans = nums;
+        ans.insert(ans.end(), nums.begin(), nums.end());
         return ans;
+        
+        // vector<int> ans(2 * nums.size());
+        // for(int i = 0; i < nums.size(); i++) {
+        //     ans[i] = nums[i];
+        //     ans[i + nums.size()] = nums[i];
+        // }
+        // return ans;
 
 
     }
