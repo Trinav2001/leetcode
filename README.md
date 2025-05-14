@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Trinav2001/leetcode/tree/master/0217-contains-duplicate) |
 | [0816-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
+| [0948-sort-an-array](https://github.com/Trinav2001/leetcode/tree/master/0948-sort-an-array) |
 | [2058-concatenation-of-array](https://github.com/Trinav2001/leetcode/tree/master/2058-concatenation-of-array) |
 ## Simulation
 |  |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Trinav2001/leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/Trinav2001/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Trinav2001/leetcode/tree/master/0242-valid-anagram) |
+| [0948-sort-an-array](https://github.com/Trinav2001/leetcode/tree/master/0948-sort-an-array) |
 ## String
 |  |
 | ------- |
@@ -47,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Trinav2001/leetcode/tree/master/0169-majority-element) |
+| [0948-sort-an-array](https://github.com/Trinav2001/leetcode/tree/master/0948-sort-an-array) |
 ## Counting
 |  |
 | ------- |
@@ -70,4 +73,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0816-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0948-sort-an-array](https://github.com/Trinav2001/leetcode/tree/master/0948-sort-an-array) |
+## Merge Sort
+|  |
+| ------- |
+| [0948-sort-an-array](https://github.com/Trinav2001/leetcode/tree/master/0948-sort-an-array) |
+## Bucket Sort
+|  |
+| ------- |
+| [0948-sort-an-array](https://github.com/Trinav2001/leetcode/tree/master/0948-sort-an-array) |
+## Radix Sort
+|  |
+| ------- |
+| [0948-sort-an-array](https://github.com/Trinav2001/leetcode/tree/master/0948-sort-an-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0948-sort-an-array](https://github.com/Trinav2001/leetcode/tree/master/0948-sort-an-array) |
 <!---LeetCode Topics End-->
