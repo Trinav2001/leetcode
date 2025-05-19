@@ -1,20 +1,39 @@
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-        vector<int> count(3);
-        for(auto& val : nums) {
-            count[val]++;
-        }
-        int index = 0;
-        for(int i = 0; i <= 2; ) {
-            if(count[i] > 0) {
-                nums[index++] = i;
-                count[i]--;
+        // Method - 3
+        int left = 0; 
+        int right = nums.size() - 1;
+        int i = 0;
+
+        while(i <= right) {
+            if(nums[i] == 0) {
+                swap(nums[i], nums[left]);
+                left++;
             }
-            else{
-                i++;
+            else if(nums[i] == 2) {
+                swap(nums[i], nums[right]);
+                right--;
+                i--;
             }
+            i++;
         }
+
+        // Method - 2
+        // vector<int> count(3);
+        // for(auto& val : nums) {
+        //     count[val]++;
+        // }
+        // int index = 0;
+        // for(int i = 0; i <= 2; ) {
+        //     if(count[i] > 0) {
+        //         nums[index++] = i;
+        //         count[i]--;
+        //     }
+        //     else{
+        //         i++;
+        //     }
+        // }
         
         // Method - 1
         // unordered_map<int, int> map;
@@ -37,5 +56,11 @@ public:
         // for(auto& val : output) {
         //     nums.push_back(val);
         // }
+    }
+
+    void swap(int& a, int& b) {
+        int temp = a;
+        a = b;
+        b = temp;
     }
 };
