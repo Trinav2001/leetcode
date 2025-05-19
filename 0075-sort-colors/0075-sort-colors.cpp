@@ -21,22 +21,22 @@ public:
         }
         
         // Method - 3
-        int left = 0; 
-        int right = nums.size() - 1;
-        int i = 0;
+        // int left = 0; 
+        // int right = nums.size() - 1;
+        // int i = 0;
 
-        while(i <= right) {
-            if(nums[i] == 0) {
-                swap(nums[i], nums[left]);
-                left++;
-            }
-            else if(nums[i] == 2) {
-                swap(nums[i], nums[right]);
-                right--;
-                i--;
-            }
-            i++;
-        }
+        // while(i <= right) {
+        //     if(nums[i] == 0) {
+        //         swap(nums[i], nums[left]);
+        //         left++;
+        //     }
+        //     else if(nums[i] == 2) {
+        //         swap(nums[i], nums[right]);
+        //         right--;
+        //         i--;
+        //     }
+        //     i++;
+        // }
 
         // Method - 2
         // vector<int> count(3);
