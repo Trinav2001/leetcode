@@ -9,9 +9,9 @@ public:
             map[num]++;
         }
 
-        for(auto& val : nums) {
-            if(map[val] > x && find(output.begin(), output.end(), val) == output.end()) {
-                output.push_back(val);
+        for(auto& pair : map) {
+            if(pair.second > x) {
+                output.push_back(pair.first);
             }
         }
         return output;
