@@ -7,16 +7,15 @@ public:
         unordered_map<int, int> map;
         for(auto& num: nums) {
             map[num]++;
-        }
-
-        if(map.size() > 2) {
-            unordered_map<int, int> temp;
-            for(auto& pair : map) {
-                if(pair.second > 1) {
-                    temp[pair.first] = pair.second - 1;
-                }
-            }
-            map = temp;
+            // if(map.size() > 2) {
+            //     unordered_map<int, int> temp;
+            //     for(auto& pair : map) {
+            //         if(pair.second > 1) {
+            //             temp[pair.first] = pair.second - 1;
+            //         }
+            //     }
+            //     map = temp;
+            // }
         }
 
         vector<int> output;
