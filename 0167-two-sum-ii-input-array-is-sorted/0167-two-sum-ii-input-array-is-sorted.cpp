@@ -13,12 +13,9 @@ public:
                 i++;
             }
             else{
-                output.push_back(i + 1);
-                output.push_back(j + 1);
-                i++;
-                j--;
+                return {i+1, j+1};
             }
         }
-        return output;
+        return {};
     }
 };
