@@ -4,8 +4,9 @@ public:
         for(int i = 0; i < nums.size(); i++) {
             int j = i + 1;
             while(j < nums.size() && nums[j] == nums[i]) {
-                nums.erase(nums.begin() + j);
+                j++;
             }
+            nums.erase(nums.begin() + (i + 1), nums.begin() + j);
         }
         return nums.size();
     }
