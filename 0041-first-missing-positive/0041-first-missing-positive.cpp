@@ -12,12 +12,12 @@ public:
 
         for(int i = 0; i < nums.size(); i++) {
             int val = abs(nums[i]);
-            if(val > 0 && val <= nums.size() && nums[val - 1] >= 0) {
-                if(nums[val - 1] == 0) {
-                    nums[val - 1] = -(nums.size() + 1);
-                }
-                else {
+            if(val > 0 && val <= nums.size()) {
+                if(nums[val - 1] > 0) {
                     nums[val - 1] = -(nums[val - 1]);
+                }
+                else if(nums[val - 1] == 0) {
+                    nums[val - 1] = -(nums.size() + 1);
                 }
             }
         }
