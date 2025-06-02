@@ -6,7 +6,7 @@ public:
 
         // Method - 2
         int left = 0;
-        int res;
+        int res = 0;
         int right = x;
         while(left <= right) {
             int mid = left + (right - left) / 2;
