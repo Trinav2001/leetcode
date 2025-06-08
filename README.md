@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Trinav2001/leetcode/tree/master/0567-permutation-in-string) |
 | [0816-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
+| [0931-maximum-frequency-stack](https://github.com/Trinav2001/leetcode/tree/master/0931-maximum-frequency-stack) |
 ## Sorting
 |  |
 | ------- |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/Trinav2001/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0816-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
+| [0931-maximum-frequency-stack](https://github.com/Trinav2001/leetcode/tree/master/0931-maximum-frequency-stack) |
 | [0937-online-stock-span](https://github.com/Trinav2001/leetcode/tree/master/0937-online-stock-span) |
 ## Hash Function
 |  |
@@ -251,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/Trinav2001/leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Trinav2001/leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/Trinav2001/leetcode/tree/master/0883-car-fleet) |
+| [0931-maximum-frequency-stack](https://github.com/Trinav2001/leetcode/tree/master/0931-maximum-frequency-stack) |
 | [0937-online-stock-span](https://github.com/Trinav2001/leetcode/tree/master/0937-online-stock-span) |
 ## Monotonic Stack
 |  |
@@ -296,4 +299,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/Trinav2001/leetcode/tree/master/0394-decode-string) |
+## Ordered Set
+|  |
+| ------- |
+| [0931-maximum-frequency-stack](https://github.com/Trinav2001/leetcode/tree/master/0931-maximum-frequency-stack) |
 <!---LeetCode Topics End-->
