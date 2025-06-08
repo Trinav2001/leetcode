@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/Trinav2001/leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Trinav2001/leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Trinav2001/leetcode/tree/master/0344-reverse-string) |
+| [0394-decode-string](https://github.com/Trinav2001/leetcode/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Trinav2001/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Trinav2001/leetcode/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/Trinav2001/leetcode/tree/master/0680-valid-palindrome-ii) |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/Trinav2001/leetcode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/Trinav2001/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Trinav2001/leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0394-decode-string](https://github.com/Trinav2001/leetcode/tree/master/0394-decode-string) |
 | [0682-baseball-game](https://github.com/Trinav2001/leetcode/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/Trinav2001/leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Trinav2001/leetcode/tree/master/0739-daily-temperatures) |
@@ -290,4 +292,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0937-online-stock-span](https://github.com/Trinav2001/leetcode/tree/master/0937-online-stock-span) |
+## Recursion
+|  |
+| ------- |
+| [0394-decode-string](https://github.com/Trinav2001/leetcode/tree/master/0394-decode-string) |
 <!---LeetCode Topics End-->
