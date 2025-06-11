@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0816-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
 | [0931-maximum-frequency-stack](https://github.com/Trinav2001/leetcode/tree/master/0931-maximum-frequency-stack) |
+| [1023-time-based-key-value-store](https://github.com/Trinav2001/leetcode/tree/master/1023-time-based-key-value-store) |
 ## Sorting
 |  |
 | ------- |
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Trinav2001/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Trinav2001/leetcode/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/Trinav2001/leetcode/tree/master/0680-valid-palindrome-ii) |
+| [1023-time-based-key-value-store](https://github.com/Trinav2001/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1894-merge-strings-alternately](https://github.com/Trinav2001/leetcode/tree/master/1894-merge-strings-alternately) |
 ## Trie
 |  |
@@ -166,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
 | [0931-maximum-frequency-stack](https://github.com/Trinav2001/leetcode/tree/master/0931-maximum-frequency-stack) |
 | [0937-online-stock-span](https://github.com/Trinav2001/leetcode/tree/master/0937-online-stock-span) |
+| [1023-time-based-key-value-store](https://github.com/Trinav2001/leetcode/tree/master/1023-time-based-key-value-store) |
 ## Hash Function
 |  |
 | ------- |
@@ -245,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/Trinav2001/leetcode/tree/master/0658-find-k-closest-elements) |
 | [0792-binary-search](https://github.com/Trinav2001/leetcode/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/Trinav2001/leetcode/tree/master/0907-koko-eating-bananas) |
+| [1023-time-based-key-value-store](https://github.com/Trinav2001/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Trinav2001/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 ## Math
 |  |
