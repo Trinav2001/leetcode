@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/Trinav2001/leetcode/tree/master/0206-reverse-linked-list) |
 | [0816-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
 ## Design
@@ -329,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0206-reverse-linked-list](https://github.com/Trinav2001/leetcode/tree/master/0206-reverse-linked-list) |
 | [0394-decode-string](https://github.com/Trinav2001/leetcode/tree/master/0394-decode-string) |
 ## Ordered Set
 |  |
