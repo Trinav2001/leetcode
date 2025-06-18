@@ -2,13 +2,34 @@ class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
         // Negative Marking
-        for(int num : nums) {
-            int idx = abs(num) - 1;
-            if(nums[idx] < 0) {
-                return abs(num);
-            }
-            nums[idx] *= (-1);
+        // for(int num : nums) {
+        //     int idx = abs(num) - 1;
+        //     if(nums[idx] < 0) {
+        //         return abs(num);
+        //     }
+        //     nums[idx] *= (-1);
+        // }
+        // return -1;
+
+        // Fast And Slow Pointers (Flyod's Tortoise & Hare - Cycle Detection)
+
+        int slow = 0;
+        int fast = 0;
+        while (1) {
+            slow = nums[slow];
+            fast = nums[nums[fast]];
+            if(slow == fast) break;
         }
-        return -1;
+
+        int slow2 = 0;
+        while (1) {
+            slow = nums[slow];
+            slow2 = nums[slow2];
+            if(slow == slow2) {
+                return slow; 
+                break;
+            }
+        }
+
     }
 };
