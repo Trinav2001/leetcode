@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Trinav2001/leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Trinav2001/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/Trinav2001/leetcode/tree/master/0424-longest-repeating-character-replacement) |
+| [0460-lfu-cache](https://github.com/Trinav2001/leetcode/tree/master/0460-lfu-cache) |
 | [0560-subarray-sum-equals-k](https://github.com/Trinav2001/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Trinav2001/leetcode/tree/master/0567-permutation-in-string) |
 | [0816-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0816-design-hashset) |
@@ -177,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/Trinav2001/leetcode/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/Trinav2001/leetcode/tree/master/0146-lru-cache) |
 | [0206-reverse-linked-list](https://github.com/Trinav2001/leetcode/tree/master/0206-reverse-linked-list) |
+| [0460-lfu-cache](https://github.com/Trinav2001/leetcode/tree/master/0460-lfu-cache) |
 | [0816-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
 | [0860-design-circular-queue](https://github.com/Trinav2001/leetcode/tree/master/0860-design-circular-queue) |
@@ -188,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Trinav2001/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Trinav2001/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0304-range-sum-query-2d-immutable](https://github.com/Trinav2001/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
+| [0460-lfu-cache](https://github.com/Trinav2001/leetcode/tree/master/0460-lfu-cache) |
 | [0816-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
 | [0860-design-circular-queue](https://github.com/Trinav2001/leetcode/tree/master/0860-design-circular-queue) |
@@ -371,4 +374,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Trinav2001/leetcode/tree/master/0146-lru-cache) |
+| [0460-lfu-cache](https://github.com/Trinav2001/leetcode/tree/master/0460-lfu-cache) |
 <!---LeetCode Topics End-->
