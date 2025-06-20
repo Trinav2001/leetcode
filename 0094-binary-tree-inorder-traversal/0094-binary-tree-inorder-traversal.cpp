@@ -13,8 +13,30 @@ class Solution {
     vector<int> res;
 public:
     vector<int> inorderTraversal(TreeNode* root) {
-        inorder(root);
-        return res;
+        
+        // Iterative
+        stack<TreeNode*> st;
+        vector<int> result;
+        TreeNode* cur = root;
+
+        while(cur || !st.empty()) {
+            if(cur) {
+                st.push(cur);
+                cur = cur -> left;
+            }
+            else {
+                cur = st.top();
+                st.pop();
+                result.push_back(cur -> val);
+                cur = cur -> right;
+                
+            }
+        }
+        return result;
+
+        // Recursive
+        // inorder(root);
+        // return res;
 
     }
     void inorder(TreeNode* node) {
