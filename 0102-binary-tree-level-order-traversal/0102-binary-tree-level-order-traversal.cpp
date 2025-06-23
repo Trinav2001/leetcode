@@ -20,7 +20,7 @@ public:
         queue<TreeNode*> queue;
         queue.push(root);
 
-        while(queue.size()) {
+        while(!queue.empty()) {
             int size = queue.size();
             vector<int> level;
                         
@@ -33,7 +33,7 @@ public:
                     queue.push(node -> right);
                 }
             }
-            if(level.size()) {
+            if(!level.empty()) {
                 res.push_back(level);
             }
         }
