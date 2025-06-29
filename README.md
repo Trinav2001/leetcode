@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/Trinav2001/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Trinav2001/leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/Trinav2001/leetcode/tree/master/0621-task-scheduler) |
+| [0778-reorganize-string](https://github.com/Trinav2001/leetcode/tree/master/0778-reorganize-string) |
 | [0816-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
 | [0931-maximum-frequency-stack](https://github.com/Trinav2001/leetcode/tree/master/0931-maximum-frequency-stack) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Trinav2001/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/Trinav2001/leetcode/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/Trinav2001/leetcode/tree/master/0658-find-k-closest-elements) |
+| [0778-reorganize-string](https://github.com/Trinav2001/leetcode/tree/master/0778-reorganize-string) |
 | [0883-car-fleet](https://github.com/Trinav2001/leetcode/tree/master/0883-car-fleet) |
 | [0917-boats-to-save-people](https://github.com/Trinav2001/leetcode/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/Trinav2001/leetcode/tree/master/0948-sort-an-array) |
@@ -138,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Trinav2001/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Trinav2001/leetcode/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/Trinav2001/leetcode/tree/master/0680-valid-palindrome-ii) |
+| [0778-reorganize-string](https://github.com/Trinav2001/leetcode/tree/master/0778-reorganize-string) |
 | [1023-time-based-key-value-store](https://github.com/Trinav2001/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1894-merge-strings-alternately](https://github.com/Trinav2001/leetcode/tree/master/1894-merge-strings-alternately) |
 ## Trie
@@ -163,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Trinav2001/leetcode/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Trinav2001/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/Trinav2001/leetcode/tree/master/0621-task-scheduler) |
+| [0778-reorganize-string](https://github.com/Trinav2001/leetcode/tree/master/0778-reorganize-string) |
 ## Two Pointers
 |  |
 | ------- |
@@ -240,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/Trinav2001/leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/Trinav2001/leetcode/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/Trinav2001/leetcode/tree/master/0658-find-k-closest-elements) |
+| [0778-reorganize-string](https://github.com/Trinav2001/leetcode/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Trinav2001/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/Trinav2001/leetcode/tree/master/0948-sort-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/Trinav2001/leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -306,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Trinav2001/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0621-task-scheduler](https://github.com/Trinav2001/leetcode/tree/master/0621-task-scheduler) |
 | [0680-valid-palindrome-ii](https://github.com/Trinav2001/leetcode/tree/master/0680-valid-palindrome-ii) |
+| [0778-reorganize-string](https://github.com/Trinav2001/leetcode/tree/master/0778-reorganize-string) |
 | [0917-boats-to-save-people](https://github.com/Trinav2001/leetcode/tree/master/0917-boats-to-save-people) |
 ## Binary Search
 |  |
