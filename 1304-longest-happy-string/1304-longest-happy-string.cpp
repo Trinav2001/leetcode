@@ -20,10 +20,10 @@ public:
                 int count2 = p2.first;
                 char ch2 = p2.second;
                 maxHeap.pop();
-
+                count2--;
                 res += ch2;
-                if (--count2 > 0) maxHeap.push({count2, ch2});
-                maxHeap.push({count, ch});           
+                if (count2 > 0) maxHeap.push({count2, ch2});
+                if(count > 0) maxHeap.push({count, ch});           
             }
 
             else {
