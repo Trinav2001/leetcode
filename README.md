@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Trinav2001/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Trinav2001/leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/Trinav2001/leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Trinav2001/leetcode/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Trinav2001/leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Trinav2001/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0088-merge-sorted-array](https://github.com/Trinav2001/leetcode/tree/master/0088-merge-sorted-array) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/Trinav2001/leetcode/tree/master/0049-group-anagrams) |
 | [0071-simplify-path](https://github.com/Trinav2001/leetcode/tree/master/0071-simplify-path) |
 | [0076-minimum-window-substring](https://github.com/Trinav2001/leetcode/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/Trinav2001/leetcode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Trinav2001/leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Trinav2001/leetcode/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Trinav2001/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -309,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/Trinav2001/leetcode/tree/master/0036-valid-sudoku) |
 | [0074-search-a-2d-matrix](https://github.com/Trinav2001/leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/Trinav2001/leetcode/tree/master/0079-word-search) |
 | [0304-range-sum-query-2d-immutable](https://github.com/Trinav2001/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0772-construct-quad-tree](https://github.com/Trinav2001/leetcode/tree/master/0772-construct-quad-tree) |
 ## Union Find
@@ -434,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/Trinav2001/leetcode/tree/master/0047-permutations-ii) |
 | [0077-combinations](https://github.com/Trinav2001/leetcode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/Trinav2001/leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/Trinav2001/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Trinav2001/leetcode/tree/master/0090-subsets-ii) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Data Stream
@@ -497,6 +501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Trinav2001/leetcode/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/Trinav2001/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/Trinav2001/leetcode/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/Trinav2001/leetcode/tree/master/0100-same-tree) |
