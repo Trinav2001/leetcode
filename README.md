@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0304-range-sum-query-2d-immutable](https://github.com/Trinav2001/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/Trinav2001/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/Trinav2001/leetcode/tree/master/0410-split-array-largest-sum) |
+| [0473-matchsticks-to-square](https://github.com/Trinav2001/leetcode/tree/master/0473-matchsticks-to-square) |
 | [0502-ipo](https://github.com/Trinav2001/leetcode/tree/master/0502-ipo) |
 | [0560-subarray-sum-equals-k](https://github.com/Trinav2001/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/Trinav2001/leetcode/tree/master/0621-task-scheduler) |
@@ -332,6 +333,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/Trinav2001/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0337-house-robber-iii](https://github.com/Trinav2001/leetcode/tree/master/0337-house-robber-iii) |
 | [0410-split-array-largest-sum](https://github.com/Trinav2001/leetcode/tree/master/0410-split-array-largest-sum) |
+| [0473-matchsticks-to-square](https://github.com/Trinav2001/leetcode/tree/master/0473-matchsticks-to-square) |
 ## Greedy
 |  |
 | ------- |
@@ -445,6 +447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Trinav2001/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Trinav2001/leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/Trinav2001/leetcode/tree/master/0131-palindrome-partitioning) |
+| [0473-matchsticks-to-square](https://github.com/Trinav2001/leetcode/tree/master/0473-matchsticks-to-square) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Data Stream
 |  |
@@ -471,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Trinav2001/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Trinav2001/leetcode/tree/master/0090-subsets-ii) |
 | [0287-find-the-duplicate-number](https://github.com/Trinav2001/leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0473-matchsticks-to-square](https://github.com/Trinav2001/leetcode/tree/master/0473-matchsticks-to-square) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Doubly-Linked List
 |  |
@@ -587,4 +591,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+## Bitmask
+|  |
+| ------- |
+| [0473-matchsticks-to-square](https://github.com/Trinav2001/leetcode/tree/master/0473-matchsticks-to-square) |
 <!---LeetCode Topics End-->
