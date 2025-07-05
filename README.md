@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Trinav2001/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Trinav2001/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/Trinav2001/leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0140-word-break-ii](https://github.com/Trinav2001/leetcode/tree/master/0140-word-break-ii) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Trinav2001/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Trinav2001/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Trinav2001/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Trinav2001/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/Trinav2001/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/Trinav2001/leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0140-word-break-ii](https://github.com/Trinav2001/leetcode/tree/master/0140-word-break-ii) |
 | [0141-linked-list-cycle](https://github.com/Trinav2001/leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/Trinav2001/leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/Trinav2001/leetcode/tree/master/0169-majority-element) |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Trinav2001/leetcode/tree/master/0079-word-search) |
 | [0125-valid-palindrome](https://github.com/Trinav2001/leetcode/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/Trinav2001/leetcode/tree/master/0131-palindrome-partitioning) |
+| [0140-word-break-ii](https://github.com/Trinav2001/leetcode/tree/master/0140-word-break-ii) |
 | [0242-valid-anagram](https://github.com/Trinav2001/leetcode/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Trinav2001/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/Trinav2001/leetcode/tree/master/0344-reverse-string) |
@@ -170,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Trinav2001/leetcode/tree/master/0014-longest-common-prefix) |
+| [0140-word-break-ii](https://github.com/Trinav2001/leetcode/tree/master/0140-word-break-ii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -333,6 +337,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Trinav2001/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Trinav2001/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/Trinav2001/leetcode/tree/master/0131-palindrome-partitioning) |
+| [0140-word-break-ii](https://github.com/Trinav2001/leetcode/tree/master/0140-word-break-ii) |
 | [0337-house-robber-iii](https://github.com/Trinav2001/leetcode/tree/master/0337-house-robber-iii) |
 | [0410-split-array-largest-sum](https://github.com/Trinav2001/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0473-matchsticks-to-square](https://github.com/Trinav2001/leetcode/tree/master/0473-matchsticks-to-square) |
@@ -452,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Trinav2001/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Trinav2001/leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/Trinav2001/leetcode/tree/master/0131-palindrome-partitioning) |
+| [0140-word-break-ii](https://github.com/Trinav2001/leetcode/tree/master/0140-word-break-ii) |
 | [0473-matchsticks-to-square](https://github.com/Trinav2001/leetcode/tree/master/0473-matchsticks-to-square) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Trinav2001/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -606,5 +612,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0140-word-break-ii](https://github.com/Trinav2001/leetcode/tree/master/0140-word-break-ii) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Trinav2001/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 <!---LeetCode Topics End-->
