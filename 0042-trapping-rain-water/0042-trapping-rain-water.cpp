@@ -19,9 +19,9 @@ public:
                 }
             }
             else {
-                    
-                int water = rightMax - height[right];
                 right--;
+                int water = rightMax - height[right];
+                
                 if(water > 0) {
                     res += water;
                 }
