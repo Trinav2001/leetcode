@@ -1,10 +1,7 @@
-#include<stack>
 class MinStack {
-
 private:
-stack<int> mainStack;
+    stack<int> mainStack;
 stack<int> minStack;
-
 public:
     MinStack() {
         
