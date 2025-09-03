@@ -11,36 +11,27 @@
 class Solution {
 public:
     void reorderList(ListNode* head) {
-        ListNode* slow;
-        ListNode* fast;
-        slow = head;
-        fast = head -> next;
-
-        // Finding the mid
+        ListNode* slow = head;
+        ListNode* fast = head -> next;
         while(fast != NULL && fast -> next != NULL) {
             slow = slow -> next;
             fast = fast -> next -> next;
         }
-        
+
         ListNode* second = slow -> next;
         slow -> next = NULL;
-
-        // Reversing the second half of the list
         ListNode* prev = NULL;
-        ListNode* temp;
-        while(second) {
-            temp = second -> next;
+
+        while (second != NULL) {
+            ListNode* temp = second -> next;
             second -> next = prev;
             prev = second;
             second = temp;
         }
-        
 
-        // Merging the two halves
-
-        second = prev;
         ListNode* first = head;
-        while(second) {
+        second = prev;
+        while (second) {
             ListNode* temp1 = first -> next;
             ListNode* temp2 = second -> next;
             first -> next = second;
@@ -49,7 +40,7 @@ public:
             second = temp2;
         }
 
-
-
+        
+        
     }
-};
+}; 
