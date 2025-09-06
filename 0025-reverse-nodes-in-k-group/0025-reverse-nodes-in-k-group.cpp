@@ -14,27 +14,29 @@ public:
         ListNode* dummy = new ListNode(0, head);
         ListNode* groupPrev = dummy;
 
-        while (1) {
+        while (true) {
             ListNode* kth = getKth(groupPrev, k);
-            if(kth == NULL) break;
+
+            if (kth == NULL) {
+                break;
+            }
 
             ListNode* groupNext = kth -> next;
-            
             ListNode* prev = kth -> next;
-            ListNode* curr = groupPrev -> next;
+            ListNode* cur = groupPrev -> next;
 
-            while(curr != groupNext) {
-                ListNode* temp = curr -> next;
-                curr -> next = prev;
-                prev = curr;
-                curr = temp;
+            while (cur != groupNext) {
+                ListNode* temp = cur -> next;
+                cur -> next = prev;
+                prev = cur;
+                cur = temp;
             }
 
             ListNode* tmp = groupPrev -> next;
             groupPrev -> next = kth;
             groupPrev = tmp;
-
         }
+
         return dummy -> next;
     }
 
