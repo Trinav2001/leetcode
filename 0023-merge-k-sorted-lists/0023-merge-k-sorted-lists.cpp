@@ -9,13 +9,12 @@
  * };
  */
 class Solution {
-  private:
+private:
 ListNode* mergeLists(ListNode* l1, ListNode* l2) {
     ListNode* dummy = new ListNode(0);
     ListNode* cur = dummy;
-
     while(l1 && l2) {
-        if(l1 -> val < l2 -> val) {
+        if (l1 -> val < l2 -> val) {
             cur -> next = l1;
             l1 = l1 -> next;
         }
@@ -26,34 +25,33 @@ ListNode* mergeLists(ListNode* l1, ListNode* l2) {
         cur = cur -> next;
     }
 
-    if(l1) {
+    if (l1) {
         cur -> next = l1;
     }
-    if(l2) {
+
+    if (l2) {
         cur -> next = l2;
     }
-
+    
     return dummy -> next;
 }
 
+
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        if(lists.empty()) {
+        if (lists.empty()) {
             return NULL;
         }
 
-        while(lists.size() > 1) {
-            vector<ListNode*> mergedLists;
-
+        while (lists.size() > 1) {
+            vector<ListNode*> merged;
             for(int i = 0; i < lists.size(); i += 2) {
-                ListNode* l1 = lists[i];
-                ListNode* l2 = (i + 1 < lists.size()) ? lists[i + 1] : NULL;
-                mergedLists.push_back(mergeLists(l1, l2));
-                
+            ListNode* l1 = lists[i];
+            ListNode* l2 = (i + 1 < lists.size()) ? lists[i + 1] : NULL;
+            merged.push_back(mergeLists(l1, l2));
             }
-            lists = mergedLists;
+            lists = merged;
         }
         return lists[0];
     }
-
 };
