@@ -17,17 +17,18 @@ public:
     }
 
 private:
-    pair<int, int> dfs(TreeNode* root) {
-        if(!root) return {0, 0};
+    pair<int, int> dfs(TreeNode* node) {
+        if (!node) return {0, 0};
 
-        pair<int, int> leftPair = dfs(root -> left);
-        pair<int, int> rightPair = dfs(root -> right);
+        pair<int, int> leftPair = dfs(node -> left);
+        pair<int, int> rightPair = dfs(node -> right);
 
-        int withRoot = root -> val + leftPair.second + rightPair.second;
-        int withoutRoot = max(leftPair.first, leftPair.second) + 
-                        max(rightPair.first, rightPair.second);
+        int withRoot = node -> val + leftPair.second + rightPair.second;
+        int withoutRoot = max(leftPair.first, leftPair.second) + max(rightPair.first, rightPair.second);
 
         return {withRoot, withoutRoot};
+
     }
+
 
 };
