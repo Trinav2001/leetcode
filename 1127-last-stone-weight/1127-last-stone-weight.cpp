@@ -6,16 +6,21 @@ public:
             maxHeap.push(stone);
         }
 
-        while(maxHeap.size() > 1) {
-            int first = maxHeap.top();
+        while (maxHeap.size() > 1) {
+            int a = maxHeap.top();
             maxHeap.pop();
-            int second = maxHeap.top();
+
+            int b = maxHeap.top();
             maxHeap.pop();
-            if(second < first) {
-                maxHeap.push(first - second);
+
+            int diff = a - b;
+            if (diff) {
+                maxHeap.push(diff);
             }
+
         }
 
-        return maxHeap.size() == 1 ? maxHeap.top() : 0;
+        return maxHeap.size() == 0 ? 0 : maxHeap.top();
+        
     }
-};
+}; 
