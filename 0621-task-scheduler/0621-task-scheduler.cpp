@@ -1,23 +1,40 @@
 class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
-        
+        priority_queue<int> maxHeap;
+
         vector<int> count(26, 0);
-        for(auto& task : tasks) {
+        for (auto& task : tasks) {
             count[task - 'A']++;
         }
 
-        int maxfreq = *max_element(count.begin(), count.end());
-        int maxCount = 0;
-        for(int c : count) {
-            if(c == maxfreq) {
-                maxCount++;
+        for (auto& cnt : count) {
+            if (cnt > 0) {
+                maxHeap.push(cnt);
             }
         }
 
+        queue<pair<int, int>> queue;
+        int time = 0;
+        while (!maxHeap.empty() || !queue.empty()) {
+            
+            time++;
+            if (!maxHeap.empty()) {
+                int count = maxHeap.top() - 1;
+                maxHeap.pop();
 
-        int time = (maxfreq - 1) * (n + 1) + maxCount;
+                if (count > 0) {
+                    queue.push({count, time + n});
+                }
+            }
 
-        return max((int)tasks.size(), time);
+            if (!queue.empty() && queue.front().second == time) {
+                maxHeap.push(queue.front().first);
+                queue.pop();
+            }
+
+        }
+
+        return time;
     }
 };
