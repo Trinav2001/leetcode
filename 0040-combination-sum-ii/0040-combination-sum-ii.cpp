@@ -1,29 +1,30 @@
 class Solution {
 public:
-    vector<vector<int>> res;
+    vector<vector<int>> result;
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-        vector<int> cur;
         sort(candidates.begin(), candidates.end());
-        dfs(candidates, target, 0, 0, cur);
-        return res;
+        vector<int> subset;
+        backtrack (candidates, subset, 0, 0, target);
+        return result;
     }
 
-    void dfs(vector<int>& candidates, int target, int i, int total, vector<int>& cur) {
-        if(total == target) {
-            res.push_back(cur);
-            return;
-        }
-        if(total > target || i >= candidates.size()) {
+    void backtrack (vector<int>& candidates, vector<int>& subset, int sum, int i, int target) {
+        if (sum == target) {
+            result.push_back(subset);
             return;
         }
 
-        cur.push_back(candidates[i]);
-        dfs(candidates, target, i + 1, total + candidates[i], cur);
-        cur.pop_back();
-        while(i + 1 < candidates.size() && candidates[i] == candidates[i + 1]) {
+        if (sum > target || i >= candidates.size()) {
+            return;
+        }
+
+        subset.push_back(candidates[i]);
+        backtrack (candidates, subset, sum + candidates[i], i + 1, target);
+
+        subset.pop_back();
+        while (i + 1 < candidates.size() && candidates[i] == candidates[i + 1]) {
             i++;
         }
-        
-        dfs(candidates, target, i + 1, total, cur);
+        backtrack (candidates, subset, sum, i + 1, target);
     }
 };
