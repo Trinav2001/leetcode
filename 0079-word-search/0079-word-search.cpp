@@ -1,16 +1,17 @@
 class Solution {
 public:
-    int ROWS, COLS;
-    vector<vector<bool>> visited;
+int rows, cols;
+vector<vector<bool>> visited;
 
     bool exist(vector<vector<char>>& board, string word) {
-        ROWS = board.size();
-        COLS = board[0].size();
-        visited = vector<vector<bool>>(ROWS, vector<bool>(COLS, false));
+        rows = board.size();
+        cols = board[0].size();
+        
+        visited = vector<vector<bool>>(rows, vector<bool>(cols, false));
 
-        for (int r = 0; r < ROWS; r++) {
-            for (int c = 0; c < COLS; c++) {
-                if (dfs(board, word, r, c, 0)) {
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (backtrack(board, word, i, j, 0)) {
                     return true;
                 }
             }
@@ -18,23 +19,25 @@ public:
         return false;
     }
 
-    bool dfs(vector<vector<char>>& board, string word, int r, int c, int i) {
+    bool backtrack (vector<vector<char>>& board, string word, int r, int c, int i) {
         if (i == word.length()) {
             return true;
         }
 
-        if (r < 0 || c < 0 || r >= ROWS || c >= COLS || 
-            board[r][c] != word[i] || visited[r][c]) {
+        if (r < 0 || c < 0 || r >= board.size() || c >= board[0].size() ||
+        board[r][c] != word[i] || visited[r][c]) {
             return false;
         }
 
         visited[r][c] = true;
-        bool res = dfs(board, word, r + 1, c, i + 1) || 
-                   dfs(board, word, r - 1, c, i + 1) ||
-                   dfs(board, word, r, c + 1, i + 1) || 
-                   dfs(board, word, r, c - 1, i + 1);
+        bool res = backtrack(board, word, r + 1, c, i + 1) ||
+            backtrack(board, word, r, c + 1, i + 1) ||
+            backtrack(board, word, r - 1, c, i + 1) ||
+            backtrack(board, word, r, c - 1, i + 1);
+
         visited[r][c] = false;
 
         return res;
+
     }
 };
