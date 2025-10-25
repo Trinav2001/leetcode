@@ -1,37 +1,35 @@
 class Solution {
 public:
     vector<vector<string>> partition(string s) {
-        vector<vector<string>> res;
-        vector<string> part;
-        dfs(0, part, res, s);
+        vector<vector<string>> result;
+        vector<string> partition;
 
-        return res;
+        backtrack(0, s, partition, result);
+        return result;
     }
-
 private:
-    void dfs(int i, vector<string>& part, vector<vector<string>>& res, string s) {
-        if(i >= s.length()) {
-            res.push_back(part);
+    void backtrack(int start, string s, vector<string>& partition, vector<vector<string>>& result) {
+        if (start >= s.length()) {
+            result.push_back(partition);
             return;
         }
 
-        for(int j = i; j < s.length(); j++) {
-            if(isPalindrome(s, i, j)) {
-                part.push_back(s.substr(i, j - i + 1));
-                dfs(j + 1, part, res, s);
-                part.pop_back();
+        for (int end = start; end < s.length(); end++) {
+            if (isPalindrome(s, start, end)) {
+                partition.push_back(s.substr(start, end - start + 1));
+                backtrack(end + 1, s, partition, result);
+                partition.pop_back();
+
             }
         }
-
     }
 
-bool isPalindrome(string& s, int l, int r) {
-    while(l < r) {
-        if(s[l] != s[r]) return false;
-        l++;
-        r--;
+    bool isPalindrome(string& s, int l, int r) {
+        while (l < r) {
+            if (s[l] != s[r]) return false;
+            l++;
+            r--;
+        }
+        return true;
     }
-    return true;
-}
-
 };
