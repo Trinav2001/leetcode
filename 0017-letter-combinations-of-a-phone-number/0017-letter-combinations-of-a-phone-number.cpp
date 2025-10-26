@@ -1,23 +1,23 @@
 class Solution {
 public:
-    vector<string> res;
-    vector<string> digitToChar = {"", "", "abc", "def", "ghi", "jkl", 
-                                  "mno", "qprs", "tuv", "wxyz"};
+vector<string> digitIndex = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+vector<string> result;
     vector<string> letterCombinations(string digits) {
-        if(digits.length() == 0) return res;
-        backtrack(0, "", digits);
-        return res;
+        backtrack(0, "", digits, result);
+        return result;
+        
     }
 
-    void backtrack(int i, string cur, string& digits) {
-        if(cur.length() == digits.length()) {
-            res.push_back(cur);
+    void backtrack(int i, string s, string digits, vector<string>& result) {
+        if (s.length() == digits.length()) {
+            result.push_back(s);
             return;
         }
 
-        for(auto& c : digitToChar[digits[i] - '0']) {
-            backtrack(i + 1, cur + c, digits);
+        for (auto& c : digitIndex[digits[i] - '0']) {
+            backtrack(i + 1, s + c, digits, result);
         }
 
+        
     }
 };
