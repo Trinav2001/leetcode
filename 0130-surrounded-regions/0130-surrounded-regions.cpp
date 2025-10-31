@@ -10,7 +10,7 @@ int directions[4][2] = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
             dfs (board, i, 0);
             dfs (board, i, COLS - 1);
         }
-        for (int i = 0; i < COLS; i++) {
+        for (int i = 1; i < COLS - 1; i++) {
             dfs (board, 0, i);
             dfs (board, ROWS - 1, i);
         }
