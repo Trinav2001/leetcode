@@ -1,40 +1,40 @@
 class Solution {
 public:
-int ROWS;
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        ROWS = prerequisites.size();
-        vector<vector<int>> adjacent(numCourses);
-        vector<int> in_arrows(numCourses, 0);
+        int n = numCourses;
+        vector<vector<int>> adjacent(n);
+        vector<int> visited(n, 0);
 
-        queue<int> queue;
-
-        for (auto& p : prerequisites) {
-            int u = p[0];
-            int v = p[1];
+        for (auto& edge : prerequisites) {
+            int u = edge[0];
+            int v = edge[1];
             adjacent[v].push_back(u);
-            in_arrows[u]++;
         }
 
-        for (int i = 0; i < numCourses; i++) {
-            if (in_arrows[i] == 0) {
-                queue.push(i);
+        for (int i = 0; i < n; i++) {
+            if (visited[i] == 0 && !dfs (i, adjacent, visited)) return false;
+        }
+        return true;
+
+        
+    }
+
+    bool dfs (int u, vector<vector<int>>& adjacent, vector<int>& visited) {
+
+        if (visited[u] == 1) return false;;
+
+        if (visited[u] == 2) return true;
+
+
+        visited[u] = 1;
+
+        for (auto& edge : adjacent[u]) {
+            if (!dfs (edge, adjacent, visited)) {
+                return 0;
             }
         }
+        visited[u] = 2;
 
-        int courses_taken = 0;
-        
-        while (!queue.empty()) {
-            int curr = queue.front();
-            queue.pop();
-            courses_taken++;
-
-            for (auto& adj : adjacent[curr]) {
-                in_arrows[adj]--;
-                if (in_arrows[adj] == 0) queue.push(adj);
-            }
-        }
-
-        return courses_taken == numCourses;
-        
+        return 1;
     }
 };
