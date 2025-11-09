@@ -27,13 +27,17 @@ public:
 
 
         unordered_map<int, int> dp;
-        dp[s.size()] = 1;
         return dfs(s, dp, 0);
         
     }
 
 
     int dfs (string s, unordered_map<int, int>& dp, int i) {
+
+        if (i == s.size()) {
+            return 1;
+        }
+        
         if (dp.count(i)) {
             return dp[i];
         }
