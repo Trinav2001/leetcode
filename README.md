@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Trinav2001/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/Trinav2001/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/Trinav2001/leetcode/tree/master/0130-surrounded-regions) |
+| [0139-word-break](https://github.com/Trinav2001/leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Trinav2001/leetcode/tree/master/0140-word-break-ii) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Trinav2001/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/Trinav2001/leetcode/tree/master/0152-maximum-product-subarray) |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/Trinav2001/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/Trinav2001/leetcode/tree/master/0133-clone-graph) |
 | [0138-copy-list-with-random-pointer](https://github.com/Trinav2001/leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/Trinav2001/leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Trinav2001/leetcode/tree/master/0140-word-break-ii) |
 | [0141-linked-list-cycle](https://github.com/Trinav2001/leetcode/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/Trinav2001/leetcode/tree/master/0146-lru-cache) |
@@ -170,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/Trinav2001/leetcode/tree/master/0091-decode-ways) |
 | [0125-valid-palindrome](https://github.com/Trinav2001/leetcode/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/Trinav2001/leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/Trinav2001/leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Trinav2001/leetcode/tree/master/0140-word-break-ii) |
 | [0242-valid-anagram](https://github.com/Trinav2001/leetcode/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Trinav2001/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -187,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Trinav2001/leetcode/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/Trinav2001/leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Trinav2001/leetcode/tree/master/0140-word-break-ii) |
 ## Divide and Conquer
 |  |
@@ -365,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Trinav2001/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Trinav2001/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/Trinav2001/leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/Trinav2001/leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Trinav2001/leetcode/tree/master/0140-word-break-ii) |
 | [0152-maximum-product-subarray](https://github.com/Trinav2001/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/Trinav2001/leetcode/tree/master/0198-house-robber) |
@@ -666,6 +671,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Trinav2001/leetcode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/Trinav2001/leetcode/tree/master/0139-word-break) |
 | [0140-word-break-ii](https://github.com/Trinav2001/leetcode/tree/master/0140-word-break-ii) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Trinav2001/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Graph
