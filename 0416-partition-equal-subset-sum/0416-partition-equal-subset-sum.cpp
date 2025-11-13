@@ -1,0 +1,26 @@
+class Solution {
+public:
+    bool canPartition(vector<int>& nums) {
+        int sum = accumulate(nums.begin(), nums.end(), 0);
+
+        if (sum % 2) return false;
+
+        int target = sum / 2;   
+        unordered_set<int> dp;
+        dp.insert(0);
+
+        for (int i = 0; i < nums.size(); i++) {
+            unordered_set<int> temp;
+            for (auto it : dp) {
+                if (it + nums[i] == target) return true;
+                temp.insert(it + nums[i]);
+                temp.insert(it);
+            }
+
+            dp = temp;
+        }
+
+        return dp.find(target) != dp.end() ? true : false;
+        
+    }
+};
