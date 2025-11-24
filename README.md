@@ -186,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/Trinav2001/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0778-reorganize-string](https://github.com/Trinav2001/leetcode/tree/master/0778-reorganize-string) |
 | [1023-time-based-key-value-store](https://github.com/Trinav2001/leetcode/tree/master/1023-time-based-key-value-store) |
+| [1143-longest-common-subsequence](https://github.com/Trinav2001/leetcode/tree/master/1143-longest-common-subsequence) |
 | [1304-longest-happy-string](https://github.com/Trinav2001/leetcode/tree/master/1304-longest-happy-string) |
 | [1894-merge-strings-alternately](https://github.com/Trinav2001/leetcode/tree/master/1894-merge-strings-alternately) |
 ## Trie
@@ -386,6 +387,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0647-palindromic-substrings](https://github.com/Trinav2001/leetcode/tree/master/0647-palindromic-substrings) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Trinav2001/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0747-min-cost-climbing-stairs](https://github.com/Trinav2001/leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [1143-longest-common-subsequence](https://github.com/Trinav2001/leetcode/tree/master/1143-longest-common-subsequence) |
 ## Greedy
 |  |
 | ------- |
