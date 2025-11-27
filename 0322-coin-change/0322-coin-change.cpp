@@ -1,7 +1,21 @@
 class Solution {
 public:
-unordered_map<int, int> memo;
+// unordered_map<int, int> memo;
     int coinChange(vector<int>& coins, int amount) {
+
+        vector<int> dp(amount + 1, amount + 1);
+        dp[0] = 0;
+
+        for (int i = 1; i < amount + 1; i++) {
+            for (auto& coin : coins) {
+                if (coin <= i) {
+                    dp[i] = min(dp[i], 1 + dp[i - coin]);
+                }
+            }
+        }
+
+        return dp[amount] != amount + 1 ? dp[amount] : -1;
+
         // Approach 1
         // vector<int> dp(amount + 1, amount + 1);
         // dp[0] = 0;
@@ -19,36 +33,31 @@ unordered_map<int, int> memo;
 
         // Approach 2
         
-        int minCoins = dfs (coins, amount);
-        return minCoins == INT_MAX ? -1 : minCoins;
-        
+        // int minCoins = dfs (coins, amount);
+        // return minCoins == INT_MAX ? -1 : minCoins;      
     }
 
+    // int dfs (vector<int>& coins, int amount) {
+    //     if (amount == 0) {
+    //         return 0;
+    //     }
 
-    int dfs (vector<int>& coins, int amount) {
-        if (amount == 0) {
-            return 0;
-        }
+    //     if (memo.count(amount)) {
+    //         return memo[amount];
+    //     }
 
-        if (memo.count(amount)) {
-            return memo[amount];
-        }
+    //     int result = INT_MAX;
+    //     for (auto& coin : coins) {
+    //         if (amount - coin >= 0) {
+    //             int res = dfs(coins, amount - coin);
+    //             if (res != INT_MAX) {
+    //                 result = min(result, 1 + res);
+    //             }    
+    //         }
+    //     }
 
-        int result = INT_MAX;
-        for (auto& coin : coins) {
-            if (amount - coin >= 0) {
-                int res = dfs(coins, amount - coin);
-                if (res != INT_MAX) {
-                    result = min(result, 1 + res);
-                }
-                
-                
-            }
-            
-        }
+    //     memo[amount] = result;
+    //     return result;
 
-        memo[amount] = result;
-        return result;
-
-    }
+    // }
 };
