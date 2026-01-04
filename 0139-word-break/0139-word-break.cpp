@@ -10,9 +10,10 @@ public:
                     dp[i] = dp[i + word.size()];
                 }
 
-                if (dp[i]) {
+                if(dp[i]) {
                     break;
                 }
+
             }
         }
 
