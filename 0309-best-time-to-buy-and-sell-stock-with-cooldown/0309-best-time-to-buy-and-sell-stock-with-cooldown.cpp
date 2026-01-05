@@ -1,10 +1,10 @@
 class Solution {
 public:
+
 unordered_map<string, int> dp;
     int maxProfit(vector<int>& prices) {
-
-        int result = dfs(prices, 0, false);        
-        return result;
+        int res = dfs(prices, 0, false);
+        return res;
     }
 
     int dfs (vector<int>& prices, int i, bool isBought) {
@@ -21,15 +21,14 @@ unordered_map<string, int> dp;
         int cooldown = dfs(prices, i + 1, isBought);
 
         if (!isBought) {
-            int buy = dfs(prices, i + 1, true) - prices[i];
+            int buy = dfs(prices, i + 1, !isBought) - prices[i];
             dp[key] = max(buy, cooldown);
         }
 
         else {
-            int sell = dfs(prices, i + 2, false) + prices[i];
+            int sell = dfs(prices, i + 2, !isBought) + prices[i];
             dp[key] = max(sell, cooldown);
         }
-
 
         return dp[key];
 
