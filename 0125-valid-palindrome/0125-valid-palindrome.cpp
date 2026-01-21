@@ -1,19 +1,31 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        string palindrome = "";
+
+        string Palindrome = "";
+
         transform(s.begin(), s.end(), s.begin(), ::tolower);
-        for(int i = 0; i < s.length(); i++) {
-            if(isalnum(s[i])) {
-                palindrome += s[i];
+
+        for (auto& c : s) {
+            if (isalnum(c)) {
+                Palindrome.push_back(c);
             }
         }
-        int i, j;
-        for(i = 0, j = palindrome.length() - 1; i < j; i++, j--) {
-            if(palindrome[i] != palindrome[j]) {
+
+        int i = 0;
+        int j = Palindrome.size() - 1;
+
+        while (i < j) {
+            if (Palindrome[i] != Palindrome[j]) {
                 return false;
             }
+            i++;
+            j--;
         }
+
         return true;
+
+
+        
     }
 };
