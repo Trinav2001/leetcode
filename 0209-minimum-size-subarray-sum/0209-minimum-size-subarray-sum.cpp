@@ -3,20 +3,24 @@ public:
     int minSubArrayLen(int target, vector<int>& nums) {
         int left = 0;
         int right = 0;
+
+        int ans = INT_MAX;
         int sum = 0;
-        int res = INT_MAX;
-        for(; right < nums.size(); right++) {
+
+        for (; right < nums.size(); right++) {
             sum += nums[right];
 
-            while(sum >= target) {
-                res = min(res, right - left + 1);
+            while (sum >= target) {
+                ans = min(ans, right - left + 1);
                 sum -= nums[left];
                 left++;
             }
-            
+  
         }
-        if (res == INT_MAX) return 0;
+
+        if (ans ==  INT_MAX) return 0;
+
+        return ans;
         
-        return res;
     }
 };
