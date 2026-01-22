@@ -13,7 +13,7 @@ public:
         stack<double> st;
 
         for (int i = 0; i < pair.size(); i++) {
-            double cur = (target - pair[i].first) / pair[i].second;
+            double cur = (double)(target - pair[i].first) / pair[i].second;
 
             if (st.empty()) {
                 st.push(cur);
