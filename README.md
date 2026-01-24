@@ -732,4 +732,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Trinav2001/leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/Trinav2001/leetcode/tree/master/0130-surrounded-regions) |
 <!---LeetCode Topics End-->
