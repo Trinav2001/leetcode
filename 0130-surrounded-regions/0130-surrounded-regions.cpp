@@ -13,7 +13,7 @@ vector<vector<int>> directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
             dfs (board, i, COLS - 1);
         }
         
-        for (int j = 1; j < COLS - 1; j++) {
+        for (int j = 0; j < COLS; j++) {
             dfs (board, 0, j);
             dfs (board, ROWS - 1, j);
 
