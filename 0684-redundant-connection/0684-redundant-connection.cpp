@@ -1,52 +1,42 @@
 class Solution {
 public:
-int SIZE;
-vector<vector<int>> adjacent;
+
+vector<int> parent, rank;
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
-        
-        SIZE = edges.size() + 1;
-        vector<int> result;
-        adjacent.resize(SIZE);
-        
-        for (auto& edge : edges) {
-            int u = edge[0];
-            int v = edge[1];
-            if (!Cycle(u, v)) {
-                adjacent[u].push_back(v);
-                adjacent[v].push_back(u);
-            }
-            else {
-                result = edge;
-                break;
-            }
+        int n = (int)edges.size();
+
+        parent.resize(n + 1);
+        rank.assign(n + 1, 1);
+
+        for (int i = 1; i <= n; i++) {
+            parent[i] = i;
         }
-        return result;
-        
-        
+
+        for (auto& e : edges) {
+            int u = e[0];
+            int v = e[1];
+            if (!Union(u, v)) return e;
+        }
+
+        return {};
     }
 
-    bool Cycle (int u, int v) {
-        vector<bool> isVisited(SIZE, 0);
+    int find(int x) {
+        if (x == parent[x]) return x;
+        parent[x] = find(parent[x]);
+        return parent[x];
+    }
 
-        queue<int> queue;
-        queue.push(u);
-        while (!queue.empty()) {
-            int x = queue.front();
-            queue.pop();
+    bool Union(int a, int b) {
+        int ra = find(a);
+        int rb = find(b);
 
-            if (x == v) {
-                return true;
-            }
+        if (ra == rb) return false;
 
-            if (!isVisited[x]) {
+        if (rank[ra] < rank[rb]) swap(ra, rb);
+        parent[rb] = ra;
+        rank[ra] += rank[rb];
 
-                isVisited[x] = true;
-                for (auto& edge : adjacent[x]) {
-                    queue.push(edge);
-                }
-            } 
-        }
-
-        return false;
+        return true;
     }
 };
