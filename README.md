@@ -733,8 +733,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Trinav2001/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/Trinav2001/leetcode/tree/master/0130-surrounded-regions) |
+| [0684-redundant-connection](https://github.com/Trinav2001/leetcode/tree/master/0684-redundant-connection) |
 ## Graph Theory
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Trinav2001/leetcode/tree/master/0207-course-schedule) |
+| [0684-redundant-connection](https://github.com/Trinav2001/leetcode/tree/master/0684-redundant-connection) |
 <!---LeetCode Topics End-->
