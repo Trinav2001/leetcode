@@ -1,8 +1,10 @@
 class Solution {
 public:
+
 int ROWS, COLS;
-int directions[4][2] = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
+vector<vector<int>> directions = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
     void solve(vector<vector<char>>& board) {
+
         ROWS = board.size();
         COLS = board[0].size();
 
@@ -10,9 +12,11 @@ int directions[4][2] = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
             dfs (board, i, 0);
             dfs (board, i, COLS - 1);
         }
-        for (int i = 1; i < COLS - 1; i++) {
-            dfs (board, 0, i);
-            dfs (board, ROWS - 1, i);
+        
+        for (int j = 1; j < COLS - 1; j++) {
+            dfs (board, 0, j);
+            dfs (board, ROWS - 1, j);
+
         }
 
         for (int i = 0; i < ROWS; i++) {
@@ -20,17 +24,15 @@ int directions[4][2] = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
                 if (board[i][j] == '*') {
                     board[i][j] = 'O';
                 }
+
                 else if (board[i][j] == 'O') {
                     board[i][j] = 'X';
                 }
             }
         }
-
-        
     }
 
     void dfs (vector<vector<char>>& board, int r, int c) {
-        
         if (board[r][c] != 'O') return;
 
         board[r][c] = '*';
