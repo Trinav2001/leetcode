@@ -8,24 +8,37 @@
  */
 
 class Solution {
-
-private:
-
-int binarySearch(int l, int h) {
-    if (l > h) return -1;
-
-    int mid = l + (h - l) / 2;
-    int res = guess(mid);
-
-    if(res < 0) return binarySearch(l, mid - 1);
-    else if (res > 0) return binarySearch(mid + 1, h);
-    else return mid;
-
-}
-
-
 public:
+
+    int Binary(int l, int h) {
+        int mid = l + (h - l) / 2;
+
+        int res = guess(mid);
+
+        if (res == -1) {
+            return Binary(l, mid - 1);
+        }
+
+        else if (res == 1) {
+            return Binary(mid + 1, h);
+        }
+
+        else {
+            return mid;
+        }
+
+
+
+
+    }
+
+
     int guessNumber(int n) {
-        return binarySearch(1, n);
+
+        int res = Binary(1, n);
+
+        return res;
+
+        
     }
 };
