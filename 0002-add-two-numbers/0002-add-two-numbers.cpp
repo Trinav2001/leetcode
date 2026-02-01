@@ -28,7 +28,7 @@ public:
             int value = sum % 10;
             carry = sum / 10;
 
-            current -> next = new ListNode(value);
+            current -> next = new ListNode(value, NULL);
 
             current = current -> next;
 
