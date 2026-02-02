@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/Trinav2001/leetcode/tree/master/0917-boats-to-save-people) |
 | [0948-sort-an-array](https://github.com/Trinav2001/leetcode/tree/master/0948-sort-an-array) |
 | [0994-rotting-oranges](https://github.com/Trinav2001/leetcode/tree/master/0994-rotting-oranges) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/Trinav2001/leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1014-k-closest-points-to-origin](https://github.com/Trinav2001/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/Trinav2001/leetcode/tree/master/1036-rotting-oranges) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Trinav2001/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -456,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/Trinav2001/leetcode/tree/master/0792-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Trinav2001/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/Trinav2001/leetcode/tree/master/0907-koko-eating-bananas) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/Trinav2001/leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1023-time-based-key-value-store](https://github.com/Trinav2001/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Trinav2001/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1185-find-in-mountain-array](https://github.com/Trinav2001/leetcode/tree/master/1185-find-in-mountain-array) |
