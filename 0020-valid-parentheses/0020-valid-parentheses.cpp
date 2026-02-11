@@ -6,21 +6,27 @@ public:
         map['}'] = '{';
         map[']'] = '[';
 
-        stack<int> stack;
+        stack<char> stack;
 
-        for(auto& c : s) {
-            if(map.count(c)) {
-                if(!stack.empty() && stack.top() == map[c]) {
+        for (auto& c : s) {
+            if (map[c]) {
+                if (!stack.empty() && stack.top() == map[c]) {
                     stack.pop();
                 }
                 else {
                     return false;
                 }
             }
+
             else {
                 stack.push(c);
             }
         }
-        return stack.empty();
+
+        if (stack.empty()) {
+            return true;
+        }
+
+        return false;
     }
 };
