@@ -1,28 +1,43 @@
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {
-        if (s1.size() > s2.size()) return false;
 
-        vector<int> need(26, 0), window(26, 0);
+        if (s1.length() > s2.length()) {
+            return false;
+        }
 
-        for (char c: s1) need[c - 'a']++;
+        vector<int> have(26, 0);
+        vector<int> need(26, 0);
 
-        for (int i = 0; i < s1.size(); i++) window[s2[i] - 'a']++;
+        for (int i = 0; i < s1.length(); i++) {
+            need[s1[i] - 'a']++;
+        }
 
-        if (window == need) return true;
+        for (int i = 0; i < s1.length(); i++) {
+            have[s2[i] - 'a']++;
+        }
+
+        if (have == need) {
+            return true;
+        }
 
         int n = s2.size();
-        for(int r = s1.size(); r < n; r++) {
-            window[s2[r] - 'a']++;
+        int l = -1;
 
-            int l = r - s1.size();
+        for (int r = s1.size(); r < n; r++) {
+            have[s2[r] - 'a']++;
 
-            window[s2[l] - 'a']--;
+            l++;
 
-            if (window == need) return true;
+            have[s2[l] - 'a']--;
+
+            if (have == need) {
+                return true;
+            }
         }
 
         return false;
+
 
         
     }
