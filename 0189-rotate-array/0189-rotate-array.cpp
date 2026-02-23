@@ -21,11 +21,6 @@ public:
             right--;
         }
 
-        for (auto& num : nums) {
-            cout<< num << " ";
-        }
-        cout<< endl;
-
         left = k;
         right = n - 1;
 
@@ -34,12 +29,6 @@ public:
             left++;
             right--;
         }
-
-        for (auto& num : nums) {
-            cout<< num << " ";
-        }
-
-        
         
     }
 };
