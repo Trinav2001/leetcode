@@ -2,8 +2,44 @@ class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
         int n = nums.size();
-        reverse(nums.begin(), nums.end());
-        reverse(nums.begin(), nums.begin() + (k % n));
-        reverse(nums.begin() + (k % n), nums.end());
+        k = k % n;
+        if (!k) return;
+        int left = 0;
+        int right = n - 1;
+        while (left <= right) {
+            swap(nums[left], nums[right]);
+            left++;
+            right--;
+        }
+
+        left = 0;
+        right = k - 1;
+
+        while (left <= right) {
+            swap(nums[left], nums[right]);
+            left++;
+            right--;
+        }
+
+        for (auto& num : nums) {
+            cout<< num << " ";
+        }
+        cout<< endl;
+
+        left = k;
+        right = n - 1;
+
+        while (left <= right) {
+            swap(nums[left], nums[right]);
+            left++;
+            right--;
+        }
+
+        for (auto& num : nums) {
+            cout<< num << " ";
+        }
+
+        
+        
     }
 };
