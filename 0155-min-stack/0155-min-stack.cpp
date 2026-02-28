@@ -12,17 +12,11 @@ public:
     void push(int val) {
         st.push(val);
 
-        if (minStack.empty()) {
+        if (minStack.empty() || (!minStack.empty() && minStack.top() > val)) {
             minStack.push(val);
+            return;
         }
-
-        else if (minStack.top() > val) {
-            minStack.push(val);
-        }
-
-        else {
-            minStack.push(minStack.top());
-        }
+        minStack.push(minStack.top());
 
 
 
