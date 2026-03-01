@@ -1,39 +1,26 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        // Method 2
-        if(s.length() != t.length()) {
+        if (s.length() != t.length()) {
             return false;
         }
-        int count[26] = {0};
-        for(auto c : s) {
-            count[c - 'a']++;
-        }
+
+        unordered_map<int, int> count;
         
-        for(auto c : t) {
-            count[c - 'a']--;
+
+        for (int i = 0; i < s.length(); i++) {
+            count[s[i] - 'a']++;
+            count[t[i] - 'a']--;
         }
 
-        for(auto i : count) {
-            if(i != 0) {
+        for (auto& pair : count) {
+            if (count[pair.first] != 0) {
                 return false;
             }
         }
+
         return true;
 
-        // Method 1
-        // unordered_map<char, int> m;
-        // for(auto c : s) {
-        //     m[c]++;
-        // }
-        // for(auto c : t) {
-        //     m[c]--;
-        // }
-        // for(auto& key : m) {
-        //     if(key.second != 0) {
-        //         return false;
-        //     }
-        // }
-        // return true;
+        
     }
 };
