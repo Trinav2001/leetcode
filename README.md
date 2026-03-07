@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Trinav2001/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0704-binary-search](https://github.com/Trinav2001/leetcode/tree/master/0704-binary-search) |
 | [0705-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0706-design-hashmap) |
 | [0735-asteroid-collision](https://github.com/Trinav2001/leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Trinav2001/leetcode/tree/master/0739-daily-temperatures) |
 | [0746-min-cost-climbing-stairs](https://github.com/Trinav2001/leetcode/tree/master/0746-min-cost-climbing-stairs) |
@@ -149,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/Trinav2001/leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/Trinav2001/leetcode/tree/master/0621-task-scheduler) |
 | [0705-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0706-design-hashmap) |
 | [0778-reorganize-string](https://github.com/Trinav2001/leetcode/tree/master/0778-reorganize-string) |
 | [0816-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
@@ -293,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/Trinav2001/leetcode/tree/master/0355-design-twitter) |
 | [0460-lfu-cache](https://github.com/Trinav2001/leetcode/tree/master/0460-lfu-cache) |
 | [0705-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0706-design-hashmap) |
 | [0816-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
 | [0860-design-circular-queue](https://github.com/Trinav2001/leetcode/tree/master/0860-design-circular-queue) |
@@ -309,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/Trinav2001/leetcode/tree/master/0355-design-twitter) |
 | [0460-lfu-cache](https://github.com/Trinav2001/leetcode/tree/master/0460-lfu-cache) |
 | [0705-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0706-design-hashmap) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Trinav2001/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0816-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
@@ -322,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Trinav2001/leetcode/tree/master/0572-subtree-of-another-tree) |
 | [0705-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0705-design-hashset) |
+| [0706-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0706-design-hashmap) |
 | [0816-design-hashset](https://github.com/Trinav2001/leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
 ## Heap (Priority Queue)
