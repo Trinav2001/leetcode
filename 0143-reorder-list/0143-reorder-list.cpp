@@ -11,10 +11,6 @@
 class Solution {
 public:
     void reorderList(ListNode* head) {
-
-        ListNode* dummy = new ListNode(0);
-        dummy -> next = head;
-
         ListNode* fast = head;
         ListNode* slow = head;
 
