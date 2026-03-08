@@ -17,10 +17,14 @@ public:
 
         int index = hash(key);
 
-        for (int num : table[index]) {
-            if (num == key) {
-                return;
-            }
+        // for (int num : table[index]) {
+        //     if (num == key) {
+        //         return;
+        //     }
+        // }
+
+        if (contains(key)) {
+            return;
         }
         
         table[index].push_back(key);
