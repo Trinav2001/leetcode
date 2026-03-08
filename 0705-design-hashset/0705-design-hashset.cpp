@@ -16,13 +16,6 @@ public:
     void add(int key) {
 
         int index = hash(key);
-
-        // for (int num : table[index]) {
-        //     if (num == key) {
-        //         return;
-        //     }
-        // }
-
         if (contains(key)) {
             return;
         }
