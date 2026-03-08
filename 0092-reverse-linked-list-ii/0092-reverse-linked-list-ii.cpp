@@ -14,16 +14,15 @@ public:
 
         ListNode* dummy = new ListNode(0, head);
 
-        ListNode* prev = NULL;
         ListNode* cur = head;
-
-        ListNode* leftPrev = dummy;
+        ListNode* leftPre = dummy;
 
         for (int i = 0; i < left - 1; i++) {
-            leftPrev = cur;
+            leftPre = cur;
             cur = cur -> next;
         }
 
+        ListNode* prev = NULL;
         for (int i = 0; i < right - left + 1; i++) {
             ListNode* temp = cur -> next;
             cur -> next = prev;
@@ -31,11 +30,11 @@ public:
             cur = temp;
         }
 
-
-        leftPrev -> next -> next = cur;
-        leftPrev -> next = prev;
+        leftPre -> next -> next = cur;
+        leftPre -> next = prev;
 
         return dummy -> next;
+
         
     }
 };
