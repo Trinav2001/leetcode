@@ -10,49 +10,37 @@
  * };
  */
 class Solution {
-    vector<int> res;
-
 public:
     vector<int> postorderTraversal(TreeNode* root) {
-        // Iterative
+
+        stack<TreeNode*> st1;
+        stack<TreeNode*> st2;
+        vector<int> res;
+
+        if (!root) {
+            return res;
+        }
+
+        st1.push(root);
         TreeNode* cur;
-        vector<int> result;
-        stack<TreeNode*> st;
-        vector<bool> visit;
-        visit.push_back(false);
-        st.push(root);
 
-        while(!st.empty()) {
-            bool v = visit.back();
-            cur = st.top();
-            st.pop();
-            visit.pop_back();
+        while (!st1.empty()) {
+            cur = st1.top();
+            st1.pop();
+            
+            st2.push(cur);
 
-            if(cur) {
-                if(v) result.push_back(cur -> val);
-                else {
-                    st.push(cur);
-                    visit.push_back(true);
-                    st.push(cur -> right);
-                    visit.push_back(false);
-                    st.push(cur -> left);
-                    visit.push_back(false);
-                }
-            }
+            if (cur -> left) st1.push(cur -> left);
+            if (cur -> right) st1.push(cur -> right);
             
         }
-        return result;
-        
-        // Recursive
-        // postorder(root);
-        // return res;
-    }
 
-    void postorder(TreeNode* cur) {
-        if(cur) {
-            postorder(cur -> left);
-            postorder(cur -> right);
-            res.push_back(cur -> val);
+        while (!st2.empty()) {
+            res.push_back(st2.top() -> val) ;
+            st2.pop();
         }
+
+        return res;
+        
     }
 };
