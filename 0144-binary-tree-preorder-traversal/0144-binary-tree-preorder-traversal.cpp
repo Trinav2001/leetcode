@@ -10,38 +10,31 @@
  * };
  */
 class Solution {
-    vector<int> res;
 public:
     vector<int> preorderTraversal(TreeNode* root) {
-        // Iterative
+        vector<int> res;
 
-        vector<int> result;
+        if (!root) return res;
+
         stack<TreeNode*> st;
-        TreeNode* cur = root;
-        while(cur || !st.empty()) {
-            if(cur) {
-                result.push_back(cur -> val);
-                st.push(cur -> right);
-                cur = cur -> left;
-            }
-            else {
-                cur = st.top();
-                st.pop();
-            }
+        st.push(root);
+
+        TreeNode* cur;
+
+        while (!st.empty()) {
+
+            cur = st.top();
+            st.pop();
+
+            res.push_back(cur -> val);
+
+            if (cur -> right) st.push(cur -> right);
+            if (cur -> left) st.push(cur -> left);
         }
-        return result;
+        
+        return res;
 
-
-        // Recursive 
-        // preorder(root);
-        // return res;
-    }
-
-    void preorder(TreeNode* node) {
-        if(node) {
-            res.push_back(node -> val);
-            preorder(node -> left);
-            preorder(node -> right);
-        }
+        
+        
     }
 };
