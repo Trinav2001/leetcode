@@ -1,16 +1,20 @@
 class Solution {
-public:
+
+private:
 vector<int> memo;
+int size;
+
+public:
     int rob(vector<int>& nums) {
-        int size = nums.size();
-        memo.resize(size, -1);
+        size = nums.size();
+        memo.resize(size + 1, -1);
 
         return dfs(nums, 0);
         
     }
 
-    int dfs (vector<int>& nums, int i) { 
-        if (i >= nums.size()) {
+    int dfs(vector<int>& nums, int i) {
+        if (i >= size) {
             return 0;
         }
 
@@ -18,12 +22,7 @@ vector<int> memo;
             return memo[i];
         }
 
-        int rob = nums[i] + dfs(nums, i + 2);
-        int skip = dfs(nums, i + 1);
-
-        memo[i] = max(rob, skip);
-
+        memo[i] = max(dfs(nums, i + 1), nums[i] + dfs(nums, i + 2));
         return memo[i];
-        
     }
 };
