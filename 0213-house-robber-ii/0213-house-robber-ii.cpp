@@ -2,7 +2,7 @@ class Solution {
 public:
     int rob(vector<int>& nums) {
 
-        if (nums.size() == 1) {
+        if (nums.size() <= 1) {
             return nums[0];
         }
 
