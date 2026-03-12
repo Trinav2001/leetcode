@@ -1,29 +1,18 @@
 class Solution {
-
-private:
-vector<int> memo;
-
 public:
     int minCostClimbingStairs(vector<int>& cost) {
-
+        
         int n = cost.size();
-        memo.resize(n + 1, -1);
+        int prev1 = cost[1];
+        int prev2 = cost[0];
 
-        return min(dp(n - 1, cost), dp(n - 2, cost));
-        
-    }
-
-    int dp(int i, vector<int>& cost) {
-        
-        if (i == 0 || i == 1) {
-            return cost[i];
+        for (int i = 2; i < n; i++) {
+            cost[i] += min(prev1, prev2);
+            prev2 = prev1;
+            prev1 = cost[i];
         }
 
-        if (memo[i] != -1) {
-            return memo[i];
-        }
-
-        memo[i] = cost[i] + min(dp(i - 1, cost), dp(i - 2, cost));
-        return memo[i];
+        return min(cost[n - 1], cost[n - 2]);
+        
     }
-}; 
+};
