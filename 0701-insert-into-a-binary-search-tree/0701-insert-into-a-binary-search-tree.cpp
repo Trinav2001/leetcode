@@ -13,19 +13,49 @@ class Solution {
 public:
     TreeNode* insertIntoBST(TreeNode* root, int val) {
 
+        // Iterative
         if (!root) {
             return new TreeNode(val);
         }
 
-        if (root -> val > val) {
-            root -> left = insertIntoBST(root -> left, val);
-        }
+        TreeNode* cur = root;
 
-        else {
-            root -> right = insertIntoBST(root -> right, val);
+        while (true) {
+            if (val > cur -> val) {
+                if (!cur -> right) {
+                    cur -> right = new TreeNode(val);
+                    return root;
+                }
+                cur = cur -> right;
+            }
+
+            else {
+                if (!cur -> left) {
+                    cur -> left = new TreeNode(val);
+                    return root;
+                }
+                cur = cur -> left;
+
+            }
         }
 
         return root;
+
+
+        // Recursive
+        // if (!root) {
+        //     return new TreeNode(val);
+        // }
+
+        // if (root -> val > val) {
+        //     root -> left = insertIntoBST(root -> left, val);
+        // }
+
+        // else {
+        //     root -> right = insertIntoBST(root -> right, val);
+        // }
+
+        // return root;
         
     }
 };
