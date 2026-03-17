@@ -12,26 +12,29 @@
 class Solution {
 public:
     TreeNode* deleteNode(TreeNode* root, int key) {
-        if(!root) return NULL;
-
-        if(key > root -> val) {
-            root -> right = deleteNode(root -> right, key);
+        if (!root ) {
+            return NULL;
         }
-        else if(key < root -> val) {
+
+        if (root -> val > key) {
             root -> left = deleteNode(root -> left, key);
         }
+
+        else if (root -> val < key) {
+            root -> right = deleteNode(root -> right, key);
+        }
+
         else {
-            if(!root -> left) return root -> right;
+            if (!root -> left) return root -> right;
+            else if (!root -> right) return root -> left;
 
-            else if(!root -> right) return root -> left;
-
-            TreeNode* cur = root -> right;
-            while(cur -> left) cur = cur -> left;
+            TreeNode* cur = root -> left;
+            while(cur -> right) cur = cur -> right;
 
             root -> val = cur -> val;
-            root -> right = deleteNode(root -> right, root -> val);
-            
+            root -> left = deleteNode(root -> left, root -> val);
         }
+
         return root;
     }
 };
