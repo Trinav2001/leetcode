@@ -25,16 +25,20 @@ public:
         queue.push(root);
 
         while(!queue.empty()) {
-            int size = queue.size();
+            int levelSize = queue.size();
 
             vector<int> level;
-            for (int i = 0; i < size; i++) {
+            for (int i = 0; i < levelSize; i++) {
                 cur = queue.front();
                 queue.pop();
                 level.push_back(cur -> val);
 
-                if (cur -> left) queue.push(cur -> left);
-                if (cur -> right) queue.push(cur -> right);
+                if (cur -> left) {
+                    queue.push(cur -> left);
+                }
+                if (cur -> right) {
+                    queue.push(cur -> right);
+                }
             }
 
             output.push_back(level);
