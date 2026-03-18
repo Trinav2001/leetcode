@@ -12,50 +12,37 @@
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
+
         vector<int> res;
-
-        if(!root) return res;
-
-        queue<TreeNode*> q;
-        q.push(root);
-        while(!q.empty()) {
-            TreeNode* backNode = NULL;
-            int size = q.size();
-
-            for(int i = 0; i < size; i++) {
-                TreeNode* node = q.front();
-                q.pop();
-                if(node) {
-                    backNode = node;
-                    q.push(node -> left);
-                    q.push(node -> right);
-                }
-            }
-            if(backNode) {
-                res.push_back(backNode -> val);
-            }
+        
+        if (!root) {
+            return res;
         }
 
-        // vector<TreeNode*> q;
-        // q.push_back(root);
-        // while(!q.empty()) {
-        //     int size = q.size();
-        //     if(q.back()) {
-        //         res.push_back(q.back() -> val);
-            
-        //         for(int i = size; i > 0; i--) {
-        //             TreeNode* node = q.front();
-        //             q.erase(q.begin());
-        //             if(node) {
-        //                 q.push_back(node -> left);         
-        //                 q.push_back(node -> right);
-        //             }
-        //         }
-        //     }
-        //     else {
-        //         q.pop_back();
-        //     }
-        // }
+        queue<TreeNode*> queue;
+
+        TreeNode* cur;
+        queue.push(root);
+
+        while(!queue.empty()) {
+            int levelSize = queue.size();
+            TreeNode* backNode = queue.back();
+
+            for (int i = 0; i < levelSize; i++) {
+                cur = queue.front();
+                queue.pop();
+
+                if (cur -> left) queue.push(cur -> left);
+                if (cur -> right) queue.push(cur -> right);
+       
+            }
+
+            if (backNode) {
+                res.push_back(backNode -> val);
+            }
+
+        }
+        
         return res;
     }
 };
