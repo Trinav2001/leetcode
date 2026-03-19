@@ -10,22 +10,24 @@
  * };
  */
 class Solution {
+private:
+    int res = 0;
 public:
     int goodNodes(TreeNode* root) {
-        return dfs(root, root -> val);  
-    }
-
-    int dfs (TreeNode* node, int maxValue) {
-        if (!node) return 0;
-
-        int res = (node -> val >= maxValue) ? 1 : 0;
-        maxValue = max(maxValue, node -> val);
-
-        res += dfs (node -> left, maxValue);
-        res += dfs (node -> right, maxValue);
+        dfs(root, root -> val);
 
         return res;
+    }
 
+    void dfs(TreeNode* node, int maxValue) {
+        if (!node) {
+            return;
+        }
 
+        res += (node -> val >= maxValue) ? 1 : 0;
+        maxValue = max(node -> val, maxValue);
+
+        dfs(node -> left, maxValue);
+        dfs(node -> right, maxValue);
     }
 };
