@@ -12,16 +12,21 @@
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
-        return valid(root, LONG_MIN, LONG_MAX);
+
+        return dfs(root, LONG_MAX, LONG_MIN);
+        
     }
 
-private:
-    bool valid(TreeNode* node, long min, long max) {
-        if(!node) return true;
+    bool dfs(TreeNode* root, long max, long min) {
+        if (!root) {
+            return true;
+        }
 
-        if(!(min < node -> val && node -> val < max)) return false;
+        if (!(min < root -> val && root -> val < max)) {
+            return false;
+        }
 
-        return valid(node -> left, min, node -> val) &&
-                valid(node -> right, node -> val, max);
+        return dfs(root -> left, root -> val, min) &&
+                dfs(root -> right, max, root -> val);
     }
 };
