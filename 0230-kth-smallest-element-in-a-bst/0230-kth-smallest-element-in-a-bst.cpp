@@ -23,7 +23,7 @@ public:
     }
 
     TreeNode* inorder(TreeNode* root, int k) {
-        if (flag == 1) return res;
+        // if (flag == 1) return res;
         if (!root || count == k) return res;
 
         inorder(root -> left, k);
@@ -31,7 +31,7 @@ public:
         count++;
         if (count == k) {
             res = root;
-            flag = 1;
+            // flag = 1;
             return res;
         }
         inorder(root -> right, k);
