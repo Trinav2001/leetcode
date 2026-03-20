@@ -10,30 +10,33 @@
  * };
  */
 class Solution {
+
+private:
+    int count = 0;
+    int flag = 0;
+    TreeNode* res=NULL;
+
 public:
     int kthSmallest(TreeNode* root, int k) {
+        inorder(root, k);
+        return res -> val;
+    }
 
-        TreeNode* cur = root;
-        int n = 0;
+    TreeNode* inorder(TreeNode* root, int k) {
+        if (flag == 1) return res;
+        if (!root || count == k) return res;
 
-        stack<TreeNode*> st;
-
-        while (!st.empty() || cur) {
-            while (cur) {
-                st.push(cur);
-                cur = cur -> left;
-            }
-
-            cur = st.top();
-            st.pop();
-            n++;
-
-            if (n == k) return cur -> val;
-
-            cur = cur -> right;
+        inorder(root -> left, k);
+        
+        count++;
+        if (count == k) {
+            res = root;
+            flag = 1;
+            return res;
         }
+        inorder(root -> right, k);
 
-        return n;
+        return res;
         
     }
 };
