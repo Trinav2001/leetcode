@@ -12,23 +12,25 @@
 class Solution {
 public:
     int rob(TreeNode* root) {
-        pair<int, int> result = dfs(root);
-        return max(result.first, result.second);
+
+        pair<int, int> res = dfs(root);
+        return max(res.first, res.second);
+        
     }
 
-private:
-    pair<int, int> dfs(TreeNode* node) {
-        if (!node) return {0, 0};
+    pair<int, int> dfs(TreeNode* root) {
+        if (!root) {
+            return {0, 0};
+        }
 
-        pair<int, int> leftPair = dfs(node -> left);
-        pair<int, int> rightPair = dfs(node -> right);
+        pair<int, int> leftPair = dfs(root -> left);
+        pair<int, int> rightPair = dfs(root -> right);
 
-        int withRoot = node -> val + leftPair.second + rightPair.second;
+        int withRoot = root -> val + leftPair.second + rightPair.second;
         int withoutRoot = max(leftPair.first, leftPair.second) + max(rightPair.first, rightPair.second);
 
         return {withRoot, withoutRoot};
 
+
     }
-
-
 };
