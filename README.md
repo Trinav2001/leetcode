@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/Trinav2001/leetcode/tree/master/1127-last-stone-weight) |
 | [1184-car-pooling](https://github.com/Trinav2001/leetcode/tree/master/1184-car-pooling) |
 | [1185-find-in-mountain-array](https://github.com/Trinav2001/leetcode/tree/master/1185-find-in-mountain-array) |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [1929-concatenation-of-array](https://github.com/Trinav2001/leetcode/tree/master/1929-concatenation-of-array) |
 | [1962-single-threaded-cpu](https://github.com/Trinav2001/leetcode/tree/master/1962-single-threaded-cpu) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -520,6 +521,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/Trinav2001/leetcode/tree/master/0189-rotate-array) |
 | [0973-k-closest-points-to-origin](https://github.com/Trinav2001/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/Trinav2001/leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Stack
 |  |
@@ -602,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0473-matchsticks-to-square](https://github.com/Trinav2001/leetcode/tree/master/0473-matchsticks-to-square) |
 | [0494-target-sum](https://github.com/Trinav2001/leetcode/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Trinav2001/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Data Stream
 |  |
@@ -633,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/Trinav2001/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0473-matchsticks-to-square](https://github.com/Trinav2001/leetcode/tree/master/0473-matchsticks-to-square) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Trinav2001/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Doubly-Linked List
 |  |
@@ -782,10 +786,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Trinav2001/leetcode/tree/master/0062-unique-paths) |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Enumeration
 |  |
 | ------- |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Bitmask
 |  |
