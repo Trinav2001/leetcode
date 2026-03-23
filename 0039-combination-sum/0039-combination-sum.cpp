@@ -1,28 +1,29 @@
 class Solution {
+private:
+    vector<vector<int>> res;
 public:
-    vector<vector<int>> result;
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
-        
         vector<int> subset;
-        backtrack (subset, 0, 0, target, candidates);
-        return result;
+        backtrack(candidates, target, 0, 0, subset);
+
+        return res;
+        
     }
 
-    void backtrack (vector<int>& subset, int sum, int i, int target, vector<int>& candidates)
-    {
+    void backtrack(vector<int>& candidates, int target, int i, int sum, vector<int>& subset) {
         if (sum == target) {
-            result.push_back(subset);
+            res.push_back(subset);
             return;
         }
 
-        if (sum > target || i >= candidates.size()) {
+        if (i >= candidates.size() || sum > target) {
             return;
         }
 
         subset.push_back(candidates[i]);
-        backtrack (subset, sum + candidates[i], i, target, candidates);
+        backtrack(candidates, target, i, sum + candidates[i], subset);
 
         subset.pop_back();
-        backtrack (subset, sum, i + 1, target, candidates);
+        backtrack(candidates, target, i + 1, sum, subset);
     }
 };
