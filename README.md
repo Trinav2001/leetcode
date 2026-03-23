@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Trinav2001/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/Trinav2001/leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Trinav2001/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0427-construct-quad-tree](https://github.com/Trinav2001/leetcode/tree/master/0427-construct-quad-tree) |
 | [0435-non-overlapping-intervals](https://github.com/Trinav2001/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0473-matchsticks-to-square](https://github.com/Trinav2001/leetcode/tree/master/0473-matchsticks-to-square) |
 | [0494-target-sum](https://github.com/Trinav2001/leetcode/tree/master/0494-target-sum) |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Trinav2001/leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Trinav2001/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Trinav2001/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0427-construct-quad-tree](https://github.com/Trinav2001/leetcode/tree/master/0427-construct-quad-tree) |
 | [0772-construct-quad-tree](https://github.com/Trinav2001/leetcode/tree/master/0772-construct-quad-tree) |
 | [0912-sort-an-array](https://github.com/Trinav2001/leetcode/tree/master/0912-sort-an-array) |
 | [0948-sort-an-array](https://github.com/Trinav2001/leetcode/tree/master/0948-sort-an-array) |
@@ -413,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Trinav2001/leetcode/tree/master/0200-number-of-islands) |
 | [0304-range-sum-query-2d-immutable](https://github.com/Trinav2001/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Trinav2001/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0427-construct-quad-tree](https://github.com/Trinav2001/leetcode/tree/master/0427-construct-quad-tree) |
 | [0695-max-area-of-island](https://github.com/Trinav2001/leetcode/tree/master/0695-max-area-of-island) |
 | [0772-construct-quad-tree](https://github.com/Trinav2001/leetcode/tree/master/0772-construct-quad-tree) |
 | [0994-rotting-oranges](https://github.com/Trinav2001/leetcode/tree/master/0994-rotting-oranges) |
@@ -656,6 +659,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Trinav2001/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Trinav2001/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0337-house-robber-iii](https://github.com/Trinav2001/leetcode/tree/master/0337-house-robber-iii) |
+| [0427-construct-quad-tree](https://github.com/Trinav2001/leetcode/tree/master/0427-construct-quad-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/Trinav2001/leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Trinav2001/leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/Trinav2001/leetcode/tree/master/0572-subtree-of-another-tree) |
