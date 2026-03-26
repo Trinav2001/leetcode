@@ -1,26 +1,29 @@
 class Solution {
+private:
+    vector<vector<int>> res;
 public:
-vector<vector<int>> result;
     vector<vector<int>> permute(vector<int>& nums) {
+        vector<int> perm;
         vector<bool> visited(nums.size(), false);
-        vector<int> path;
-        backtrack(path, visited, nums);
-        return result;
+        backtrack(nums, perm, visited);
 
+        return res;
+        
     }
 
-    void backtrack(vector<int>& path, vector<bool>& visited, vector<int>& nums) {
-        if (path.size() == nums.size()) {
-            result.push_back(path);
+    void backtrack(vector<int>& nums, vector<int>& perm, vector<bool>& visited) {
+        if (perm.size() == nums.size()) {
+            res.push_back(perm);
             return;
         }
 
+
         for (int i = 0; i < nums.size(); i++) {
             if (!visited[i]) {
+                perm.push_back(nums[i]);
                 visited[i] = true;
-                path.push_back(nums[i]);
-                backtrack(path, visited, nums);
-                path.pop_back();
+                backtrack(nums, perm, visited);
+                perm.pop_back();
                 visited[i] = false;
             }
         }
