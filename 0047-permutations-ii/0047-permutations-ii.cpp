@@ -1,30 +1,36 @@
 class Solution {
-public:
+private:
     vector<vector<int>> res;
-    unordered_map<int, int> count;
+public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
-        for(auto& num : nums) {
+        vector<int> perm;
+        unordered_map<int, int> count;
+        for (auto& num : nums) {
             count[num]++;
         }
-        vector<int> perm;
-        dfs(perm, nums);
+        backtrack(nums, perm, count);
+
         return res;
+        
     }
 
-    void dfs(vector<int>& perm, vector<int>& nums) {
-        if(perm.size() == nums.size()) {
+    void backtrack(vector<int>& nums, vector<int>& perm, unordered_map<int, int>& count) {
+
+        if (perm.size() == nums.size()) {
             res.push_back(perm);
             return;
         }
 
-        for(auto& [num, cnt] : count) {
-            if(cnt > 0) {
-                perm.push_back(num);
-                cnt--;
-                dfs(perm, nums);
+        for (auto& pair : count) {
+            if (pair.second > 0) {
+                perm.push_back(pair.first);
+                count[pair.first]--;
 
-                ++cnt;
+                backtrack(nums, perm, count);
+
                 perm.pop_back();
+                count[pair.first]++;
+
             }
         }
 
