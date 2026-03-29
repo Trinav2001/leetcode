@@ -4,29 +4,34 @@ private:
 public:
     vector<vector<int>> permute(vector<int>& nums) {
         vector<int> perm;
-        vector<bool> visited(nums.size(), false);
-        backtrack(nums, perm, visited);
+        unordered_map<int, int> count;
+
+        for (auto& num : nums) {
+            count[num]++;
+        }
+
+        backtrack(nums, perm, count);
 
         return res;
         
     }
 
-    void backtrack(vector<int>& nums, vector<int>& perm, vector<bool>& visited) {
+    void backtrack(vector<int>& nums, vector<int>& perm, unordered_map<int, int>& count) {
         if (perm.size() == nums.size()) {
             res.push_back(perm);
             return;
         }
 
+        for (auto& pair : count) {
+            if (pair.second > 0) {
+                perm.push_back(pair.first);
+                count[pair.first]--;
 
-        for (int i = 0; i < nums.size(); i++) {
-            if (!visited[i]) {
-                perm.push_back(nums[i]);
-                visited[i] = true;
-                backtrack(nums, perm, visited);
+                backtrack(nums, perm, count);
+
                 perm.pop_back();
-                visited[i] = false;
+                count[pair.first]++;
             }
         }
-
     }
 };
