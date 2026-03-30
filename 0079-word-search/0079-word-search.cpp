@@ -1,12 +1,13 @@
 class Solution {
-public:
-int rows, cols;
-vector<vector<bool>> visited;
+private:
+    vector<vector<bool>> visited;
+    int rows, cols;
+    vector<vector<int>> directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 
+public:
     bool exist(vector<vector<char>>& board, string word) {
         rows = board.size();
         cols = board[0].size();
-        
         visited = vector<vector<bool>>(rows, vector<bool>(cols, false));
 
         for (int i = 0; i < rows; i++) {
@@ -16,28 +17,30 @@ vector<vector<bool>> visited;
                 }
             }
         }
+
         return false;
+        
     }
 
-    bool backtrack (vector<vector<char>>& board, string word, int r, int c, int i) {
+    bool backtrack(vector<vector<char>>& board, string word, int r, int c, int i) {
+
         if (i == word.length()) {
             return true;
         }
 
-        if (r < 0 || c < 0 || r >= board.size() || c >= board[0].size() ||
-        board[r][c] != word[i] || visited[r][c]) {
+        if (r < 0 || c < 0 || r >= rows || c >= cols || board[r][c] != word[i] || visited[r][c]) {
             return false;
         }
 
         visited[r][c] = true;
-        bool res = backtrack(board, word, r + 1, c, i + 1) ||
-            backtrack(board, word, r, c + 1, i + 1) ||
-            backtrack(board, word, r - 1, c, i + 1) ||
-            backtrack(board, word, r, c - 1, i + 1);
-
+        bool res = false;
+        for (int k = 0; k < 4; k++) {
+            int x = r + directions[k][0];
+            int y = c + directions[k][1];
+            res = res || backtrack(board, word, x, y, i + 1);
+        }
         visited[r][c] = false;
 
         return res;
-
     }
 };
