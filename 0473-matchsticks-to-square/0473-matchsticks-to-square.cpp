@@ -27,7 +27,10 @@ public:
                     return true;
                 }
                 side[k] -= matchsticks[i];
+            }
 
+            if (side[k] == 0) {
+                break;
             }
         }
 
