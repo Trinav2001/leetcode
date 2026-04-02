@@ -1,30 +1,39 @@
 class Solution {
 public:
-int target;
-vector<bool> used;
-
     bool canPartitionKSubsets(vector<int>& nums, int k) {
-        sort(nums.rbegin(), nums.rend());
         int sum = accumulate(nums.begin(), nums.end(), 0);
-        if(sum % k != 0) return false;
-        used.assign(nums.size(), false);
-        target = sum / k;
-        return backtrack(nums, k, 0, 0);
+        if (sum % k) {
+            return false;
+        }
+        
+        sort(nums.rbegin(), nums.rend());
+        int targetSum = sum / k;
+        
+        vector<int> buckets(k, 0);
+        return backtrack(nums, buckets, targetSum, 0);
+           
     }
 
-    bool backtrack(vector<int>& nums, int k, int subsetSum, int start) {
-        if(k == 0) return true;
+    bool backtrack(vector<int>& nums, vector<int>& buckets, int targetSum, int idx) {
+        if (idx == nums.size()) {
+            return true;
+        }
 
-        if(subsetSum == target) return backtrack(nums, k - 1, 0, 0);
+        for (int i = 0; i < buckets.size(); i++) {
+            if (nums[idx] + buckets[i] <= targetSum) {
+                buckets[i] += nums[idx];
+                if (backtrack(nums, buckets, targetSum, idx + 1)) {
+                    return true;
+                }
+                buckets[i] -= nums[idx];
+            }
 
-        for(int i = start; i < nums.size(); i++) {
-            if(!used[i] && subsetSum + nums[i] <= target) {
-                used[i] = true;
-                if (backtrack(nums, k, subsetSum + nums[i], i + 1)) return true;
-                used[i] = false;
+            if (buckets[i] == 0) {
+                break;
             }
         }
+        
         return false;
-    }
 
+    }
 };
