@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/Trinav2001/leetcode/tree/master/1127-last-stone-weight) |
 | [1184-car-pooling](https://github.com/Trinav2001/leetcode/tree/master/1184-car-pooling) |
 | [1185-find-in-mountain-array](https://github.com/Trinav2001/leetcode/tree/master/1185-find-in-mountain-array) |
+| [1539-kth-missing-positive-number](https://github.com/Trinav2001/leetcode/tree/master/1539-kth-missing-positive-number) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [1929-concatenation-of-array](https://github.com/Trinav2001/leetcode/tree/master/1929-concatenation-of-array) |
 | [1962-single-threaded-cpu](https://github.com/Trinav2001/leetcode/tree/master/1962-single-threaded-cpu) |
@@ -519,6 +520,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1023-time-based-key-value-store](https://github.com/Trinav2001/leetcode/tree/master/1023-time-based-key-value-store) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/Trinav2001/leetcode/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1185-find-in-mountain-array](https://github.com/Trinav2001/leetcode/tree/master/1185-find-in-mountain-array) |
+| [1539-kth-missing-positive-number](https://github.com/Trinav2001/leetcode/tree/master/1539-kth-missing-positive-number) |
 ## Math
 |  |
 | ------- |
