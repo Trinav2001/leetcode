@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
 | [0853-car-fleet](https://github.com/Trinav2001/leetcode/tree/master/0853-car-fleet) |
 | [0860-design-circular-queue](https://github.com/Trinav2001/leetcode/tree/master/0860-design-circular-queue) |
+| [0867-transpose-matrix](https://github.com/Trinav2001/leetcode/tree/master/0867-transpose-matrix) |
 | [0875-koko-eating-bananas](https://github.com/Trinav2001/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0881-boats-to-save-people](https://github.com/Trinav2001/leetcode/tree/master/0881-boats-to-save-people) |
 | [0883-car-fleet](https://github.com/Trinav2001/leetcode/tree/master/0883-car-fleet) |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0682-baseball-game](https://github.com/Trinav2001/leetcode/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/Trinav2001/leetcode/tree/master/0735-asteroid-collision) |
+| [0867-transpose-matrix](https://github.com/Trinav2001/leetcode/tree/master/0867-transpose-matrix) |
 | [1184-car-pooling](https://github.com/Trinav2001/leetcode/tree/master/1184-car-pooling) |
 | [1929-concatenation-of-array](https://github.com/Trinav2001/leetcode/tree/master/1929-concatenation-of-array) |
 | [2058-concatenation-of-array](https://github.com/Trinav2001/leetcode/tree/master/2058-concatenation-of-array) |
@@ -428,6 +430,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0427-construct-quad-tree](https://github.com/Trinav2001/leetcode/tree/master/0427-construct-quad-tree) |
 | [0695-max-area-of-island](https://github.com/Trinav2001/leetcode/tree/master/0695-max-area-of-island) |
 | [0772-construct-quad-tree](https://github.com/Trinav2001/leetcode/tree/master/0772-construct-quad-tree) |
+| [0867-transpose-matrix](https://github.com/Trinav2001/leetcode/tree/master/0867-transpose-matrix) |
 | [0994-rotting-oranges](https://github.com/Trinav2001/leetcode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/Trinav2001/leetcode/tree/master/1036-rotting-oranges) |
 ## Union Find
