@@ -236,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/Trinav2001/leetcode/tree/master/0767-reorganize-string) |
 | [0778-reorganize-string](https://github.com/Trinav2001/leetcode/tree/master/0778-reorganize-string) |
 | [1023-time-based-key-value-store](https://github.com/Trinav2001/leetcode/tree/master/1023-time-based-key-value-store) |
+| [1071-greatest-common-divisor-of-strings](https://github.com/Trinav2001/leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1143-longest-common-subsequence](https://github.com/Trinav2001/leetcode/tree/master/1143-longest-common-subsequence) |
 | [1304-longest-happy-string](https://github.com/Trinav2001/leetcode/tree/master/1304-longest-happy-string) |
 | [1768-merge-strings-alternately](https://github.com/Trinav2001/leetcode/tree/master/1768-merge-strings-alternately) |
@@ -537,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/Trinav2001/leetcode/tree/master/0202-happy-number) |
 | [0973-k-closest-points-to-origin](https://github.com/Trinav2001/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/Trinav2001/leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1071-greatest-common-divisor-of-strings](https://github.com/Trinav2001/leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Stack
