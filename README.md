@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0817-design-hashmap](https://github.com/Trinav2001/leetcode/tree/master/0817-design-hashmap) |
 | [0853-car-fleet](https://github.com/Trinav2001/leetcode/tree/master/0853-car-fleet) |
 | [0860-design-circular-queue](https://github.com/Trinav2001/leetcode/tree/master/0860-design-circular-queue) |
+| [0860-lemonade-change](https://github.com/Trinav2001/leetcode/tree/master/0860-lemonade-change) |
 | [0867-transpose-matrix](https://github.com/Trinav2001/leetcode/tree/master/0867-transpose-matrix) |
 | [0875-koko-eating-bananas](https://github.com/Trinav2001/leetcode/tree/master/0875-koko-eating-bananas) |
 | [0881-boats-to-save-people](https://github.com/Trinav2001/leetcode/tree/master/0881-boats-to-save-people) |
@@ -498,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/Trinav2001/leetcode/tree/master/0680-valid-palindrome-ii) |
 | [0767-reorganize-string](https://github.com/Trinav2001/leetcode/tree/master/0767-reorganize-string) |
 | [0778-reorganize-string](https://github.com/Trinav2001/leetcode/tree/master/0778-reorganize-string) |
+| [0860-lemonade-change](https://github.com/Trinav2001/leetcode/tree/master/0860-lemonade-change) |
 | [0881-boats-to-save-people](https://github.com/Trinav2001/leetcode/tree/master/0881-boats-to-save-people) |
 | [0917-boats-to-save-people](https://github.com/Trinav2001/leetcode/tree/master/0917-boats-to-save-people) |
 | [1304-longest-happy-string](https://github.com/Trinav2001/leetcode/tree/master/1304-longest-happy-string) |
