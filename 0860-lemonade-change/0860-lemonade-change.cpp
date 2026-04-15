@@ -5,10 +5,6 @@ public:
         int five = 0, ten = 0;
 
         for (auto& b : bills) {
-            if (b > 5 && five == 0) {
-                return false;
-            }
-
             if (b == 5) {
                 five++;
             }
@@ -27,12 +23,11 @@ public:
                 else {
                     five -= 3;
                 }
-                
-                if (five < 0) {
-                    return false;
-                }
             }
-            cout<<five<< " "<<ten<< endl;
+
+            if (five < 0) {
+                return false;
+            }
         }
 
         return true;
