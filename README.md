@@ -134,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1929-concatenation-of-array](https://github.com/Trinav2001/leetcode/tree/master/1929-concatenation-of-array) |
 | [2058-concatenation-of-array](https://github.com/Trinav2001/leetcode/tree/master/2058-concatenation-of-array) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/Trinav2001/leetcode/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
+| [2390-removing-stars-from-a-string](https://github.com/Trinav2001/leetcode/tree/master/2390-removing-stars-from-a-string) |
 ## Hash Table
 |  |
 | ------- |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1304-longest-happy-string](https://github.com/Trinav2001/leetcode/tree/master/1304-longest-happy-string) |
 | [1768-merge-strings-alternately](https://github.com/Trinav2001/leetcode/tree/master/1768-merge-strings-alternately) |
 | [1894-merge-strings-alternately](https://github.com/Trinav2001/leetcode/tree/master/1894-merge-strings-alternately) |
+| [2390-removing-stars-from-a-string](https://github.com/Trinav2001/leetcode/tree/master/2390-removing-stars-from-a-string) |
 ## Trie
 |  |
 | ------- |
@@ -575,6 +577,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0931-maximum-frequency-stack](https://github.com/Trinav2001/leetcode/tree/master/0931-maximum-frequency-stack) |
 | [0937-online-stock-span](https://github.com/Trinav2001/leetcode/tree/master/0937-online-stock-span) |
 | [0946-validate-stack-sequences](https://github.com/Trinav2001/leetcode/tree/master/0946-validate-stack-sequences) |
+| [2390-removing-stars-from-a-string](https://github.com/Trinav2001/leetcode/tree/master/2390-removing-stars-from-a-string) |
 ## Monotonic Stack
 |  |
 | ------- |
