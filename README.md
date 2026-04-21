@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Trinav2001/leetcode/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/Trinav2001/leetcode/tree/master/0238-product-of-array-except-self) |
 | [0239-sliding-window-maximum](https://github.com/Trinav2001/leetcode/tree/master/0239-sliding-window-maximum) |
+| [0268-missing-number](https://github.com/Trinav2001/leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Trinav2001/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Trinav2001/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0304-range-sum-query-2d-immutable](https://github.com/Trinav2001/leetcode/tree/master/0304-range-sum-query-2d-immutable) |
@@ -160,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/Trinav2001/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/Trinav2001/leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Trinav2001/leetcode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/Trinav2001/leetcode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/Trinav2001/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/Trinav2001/leetcode/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/Trinav2001/leetcode/tree/master/0424-longest-repeating-character-replacement) |
@@ -191,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Trinav2001/leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/Trinav2001/leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Trinav2001/leetcode/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/Trinav2001/leetcode/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/Trinav2001/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/Trinav2001/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/Trinav2001/leetcode/tree/master/0435-non-overlapping-intervals) |
@@ -520,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Trinav2001/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Trinav2001/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/Trinav2001/leetcode/tree/master/0209-minimum-size-subarray-sum) |
+| [0268-missing-number](https://github.com/Trinav2001/leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Trinav2001/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/Trinav2001/leetcode/tree/master/0300-longest-increasing-subsequence) |
 | [0374-guess-number-higher-or-lower](https://github.com/Trinav2001/leetcode/tree/master/0374-guess-number-higher-or-lower) |
@@ -547,6 +551,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0168-excel-sheet-column-title](https://github.com/Trinav2001/leetcode/tree/master/0168-excel-sheet-column-title) |
 | [0189-rotate-array](https://github.com/Trinav2001/leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Trinav2001/leetcode/tree/master/0202-happy-number) |
+| [0268-missing-number](https://github.com/Trinav2001/leetcode/tree/master/0268-missing-number) |
 | [0973-k-closest-points-to-origin](https://github.com/Trinav2001/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/Trinav2001/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Trinav2001/leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
@@ -664,6 +669,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Trinav2001/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Trinav2001/leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/Trinav2001/leetcode/tree/master/0136-single-number) |
+| [0268-missing-number](https://github.com/Trinav2001/leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/Trinav2001/leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0473-matchsticks-to-square](https://github.com/Trinav2001/leetcode/tree/master/0473-matchsticks-to-square) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/Trinav2001/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
