@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2058-concatenation-of-array](https://github.com/Trinav2001/leetcode/tree/master/2058-concatenation-of-array) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/Trinav2001/leetcode/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
+| [2545-sort-the-students-by-their-kth-score](https://github.com/Trinav2001/leetcode/tree/master/2545-sort-the-students-by-their-kth-score) |
 ## Simulation
 |  |
 | ------- |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1184-car-pooling](https://github.com/Trinav2001/leetcode/tree/master/1184-car-pooling) |
 | [1962-single-threaded-cpu](https://github.com/Trinav2001/leetcode/tree/master/1962-single-threaded-cpu) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/Trinav2001/leetcode/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
+| [2545-sort-the-students-by-their-kth-score](https://github.com/Trinav2001/leetcode/tree/master/2545-sort-the-students-by-their-kth-score) |
 ## String
 |  |
 | ------- |
@@ -446,6 +448,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-transpose-matrix](https://github.com/Trinav2001/leetcode/tree/master/0867-transpose-matrix) |
 | [0994-rotting-oranges](https://github.com/Trinav2001/leetcode/tree/master/0994-rotting-oranges) |
 | [1036-rotting-oranges](https://github.com/Trinav2001/leetcode/tree/master/1036-rotting-oranges) |
+| [2545-sort-the-students-by-their-kth-score](https://github.com/Trinav2001/leetcode/tree/master/2545-sort-the-students-by-their-kth-score) |
 ## Union Find
 |  |
 | ------- |
