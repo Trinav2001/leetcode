@@ -6,7 +6,6 @@ class Solution:
         for pre, crs in prerequisites:
             preMap[pre].append(crs)
         
-        visit = set()
         cycle = set()
         output = []
 
@@ -14,7 +13,7 @@ class Solution:
             if crs in cycle:
                 return False
             
-            if crs in visit:
+            if preMap[crs] is None:
                 return True
             
             cycle.add(crs)
@@ -23,7 +22,7 @@ class Solution:
                 if not dfs(pre):
                     return False
             
-            visit.add(crs)
+            preMap[crs] = None
             cycle.remove(crs)
             output.append(crs)
             return True
