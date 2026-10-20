@@ -1,20 +1,16 @@
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
-        output = 0
+    def maxProfit(self, prices: list[int]) -> int:
+        profit = 0
+        minPrice = float("infinity")
 
-        minPrice = prices[0]
-
-        for i in range(1, len(prices)):
-            profit = 0
+        for i in range(len(prices)):
 
             if prices[i] < minPrice:
                 minPrice = prices[i]
-
-            else:
-                profit = prices[i] - minPrice
             
-            output = max(output, profit)
+            else:
+                profit = max(profit, prices[i] - minPrice)
         
-        return output
+        return profit
 
         
