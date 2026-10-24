@@ -3,10 +3,9 @@ class Solution:
         """
         Do not return anything, modify board in-place instead.
         """
-
         ROWS = len(board)
         COLS = len(board[0])
-        
+
         def dfs(r, c):
             if r not in range(ROWS) or c not in range(COLS) or board[r][c] != "O":
                 return
@@ -16,22 +15,25 @@ class Solution:
             dfs(r - 1, c)
             dfs(r, c + 1)
             dfs(r, c - 1)
-        
-        for r in range(ROWS):
-            dfs(r, 0)
-            dfs(r, COLS - 1)
+                    
 
-        for c in range(COLS):
-            dfs(0, c)
-            dfs(ROWS - 1, c)
+        for i in range(ROWS):
+            dfs(i, 0)
+            dfs(i, COLS - 1)
         
-        for r in range(ROWS):
-            for c in range(COLS):
-                if board[r][c] == "*":
-                    board[r][c] = "O"
+        for j in range(COLS):
+            dfs(0, j)
+            dfs(ROWS - 1, j)
+
+        for i in range(ROWS):
+            for j in range(COLS):
+                if board[i][j] == "*":
+                    board[i][j] = "O"
                 
-                elif board[r][c] == "O":
-                    board[r][c] = "X"
+                elif board[i][j] == "O":
+                    board[i][j] = "X"
         
-
+        
+    
+        
         
