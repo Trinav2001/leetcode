@@ -1,34 +1,40 @@
 class Solution:
     def findRedundantConnection(self, edges: list[list[int]]) -> list[int]:
-        n = len(edges)
+        N = len(edges)
+        par = [i for i in range(N + 1)]
+        rank = [1] * (N + 1)
 
-        indegree = [0] * (n + 1)
-        adj = [[] for _ in range(n + 1)]
+        # find the parent of a node
+        def find(n):
+            if n != par[n]:
+                par[n] = find(par[n])
+            
+            return par[n]
+        
+        # union the nodes
+        def union(n1, n2):
+            p1, p2 = find(n1), find(n2)
 
-        for u, v in edges:
-            adj[u].append(v)
-            adj[v].append(u)
+            if p1 == p2:
+                return False
+            
+            if rank[p1] < rank[p2]:
+                par[p1] = p2
+                rank[p2] += rank[p1]
+            
+            else:
+                par[p2] = p1
+                rank[p1] += rank[p2]
+            
+            return True
 
-            indegree[u] += 1
-            indegree[v] += 1
-        
-        q = deque()
-        for i in range(1, n + 1):
-            if indegree[i] == 1:
-                q.append(i)
-        
-        while q:
-            node = q.popleft()
-            indegree[node] -= 1
-            for nei in adj[node]:
-                indegree[nei] -= 1
-                if indegree[nei] == 1:
-                    q.append(nei)
-        
-        for u, v in reversed(edges):
-            if indegree[u] >= 2 and indegree[v]:
-                return [u, v]
+            
+        for n1, n2 in edges:
+            if not union(n1, n2):
+                return [n1, n2]
         
         return []
+        
+
 
         
