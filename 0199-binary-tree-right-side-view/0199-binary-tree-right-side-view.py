@@ -5,8 +5,7 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def rightSideView(self, root: Optional[TreeNode]) -> List[int]:
-
+    def rightSideView(self, root: TreeNode | None) -> list[int]:
         output = []
 
         if not root:
@@ -16,20 +15,21 @@ class Solution:
         q.append(root)
 
         while q:
-            levelSize = len(q)
-            
-            for i in range(levelSize):
-                cur = q.popleft()
-                if i == levelSize - 1:
-                    output.append(cur.val)
-                
-                if cur.left:
-                    q.append(cur.left)
-                
-                if cur.right:
-                    q.append(cur.right)
-                
-        return output
-                    
+            sz = len(q)
 
+            while sz:
+                node = q.popleft()
+
+                if sz == 1:
+                    output.append(node.val)
+                
+                if node.left:
+                    q.append(node.left)
+                
+                if node.right:
+                    q.append(node.right)
+                
+                sz -= 1
+
+        return output            
         
