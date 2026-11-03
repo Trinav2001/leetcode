@@ -1,6 +1,5 @@
 class Solution:
-    def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
-
+    def kClosest(self, points: list[list[int]], k: int) -> list[list[int]]:
         pq = []
         output = []
 
@@ -8,12 +7,11 @@ class Solution:
             dist = x ** 2 + y ** 2
             heapq.heappush(pq, [dist, x, y])
         
-        while k > 0:
+        while k:
             dist, x, y = heapq.heappop(pq)
             output.append([x, y])
             k -= 1
         
         return output
-
 
         
