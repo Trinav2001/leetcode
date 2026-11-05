@@ -5,23 +5,15 @@ class Solution:
             return nums[0]
             
         def robRange(start, end):
-
-            memo = [-1] * len(nums)
-
-            def dfs(i):
-                if i > end:
-                    return 0
-                
-                if memo[i] != -1:
-                    return memo[i]
-                
-                rob = nums[i] + dfs(i + 2)
-                skip = dfs(i + 1)
-
-                memo[i] = max(rob, skip)
-                return memo[i]
+            prev1 = 0
+            prev2 = 0
+            for i in range(start, end + 1):
+                current = max(prev1, prev2 + nums[i])
+                prev2 = prev1
+                prev1 = current
             
-            return dfs(start)
+            return prev1
+            
         
         return max(robRange(0, n - 2), robRange(1, n - 1))
         
