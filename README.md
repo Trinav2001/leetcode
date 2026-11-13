@@ -931,6 +931,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0322-coin-change](https://github.com/Trinav2001/leetcode/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Trinav2001/leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Trinav2001/leetcode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Trinav2001/leetcode/tree/master/0518-coin-change-ii) |
 ## Complete Knapsack
 |  |
@@ -949,6 +950,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/Trinav2001/leetcode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Trinav2001/leetcode/tree/master/0494-target-sum) |
 ## Longest Common Subsequence
 |  |
 | ------- |
