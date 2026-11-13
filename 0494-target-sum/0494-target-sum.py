@@ -1,15 +1,15 @@
 class Solution:
     def findTargetSumWays(self, nums: list[int], target: int) -> int:
-        dp = {}
-        def dfs(i, curSum):
-            if i == len(nums):
-                return curSum == target
+        dp = defaultdict(int)
+        dp[0] = 1
+
+        for i in range(len(nums)):
+            nextDp = defaultdict(int)
+            for total, count in dp.items():
+                nextDp[total - nums[i]] += count
+                nextDp[total + nums[i]] += count
             
-            if (i, curSum) in dp:
-                return dp[(i, curSum)]
-            
-            dp[(i, curSum)] = dfs(i + 1, curSum + nums[i]) + dfs(i + 1, curSum - nums[i])
-            return dp[(i, curSum)]
+            dp = nextDp
         
-        return dfs(0, 0)
+        return dp[target]
         
