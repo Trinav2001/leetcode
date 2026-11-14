@@ -1,18 +1,14 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        if x < 0:
+        if x < 0 or (x != 0 and x % 10 == 0):
             return False
         
-        x = str(x)
+        reversedHalf = 0
 
-        i, j = 0, len(x) - 1
-        while i < j:
-            if x[i] != x[j]:
-                return False
-            
-            i += 1
-            j -= 1
+        while x > reversedHalf:
+            reversedHalf = reversedHalf * 10 + x % 10
+            x = x // 10
         
-        return True
+        return x == reversedHalf or (x == reversedHalf // 10)
 
         
