@@ -1,24 +1,11 @@
 class Solution:
     def combinationSum4(self, nums: list[int], target: int) -> int:
-        nums.sort()
-        cache = { 0 : 1 }
+        dp = { 0 : 1 }
 
-        def dfs(curSum):
-            if curSum == 0:
-                return 1
-
-            if curSum in cache:
-                return cache[curSum]
-
-            res = 0
-            for n in nums:
-                if curSum < n:
-                    break
-                
-                res += dfs(curSum - n)
-
-            cache[curSum] = res
-            return res
+        for total in range(1, target + 1):
+            dp[total] = 0
+            for num in nums:
+                if num <= total:
+                    dp[total] += dp.get(total - num, 0)
         
-        return dfs(target)
-        
+        return dp[target]
