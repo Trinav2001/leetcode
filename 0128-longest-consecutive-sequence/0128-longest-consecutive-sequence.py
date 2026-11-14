@@ -1,25 +1,19 @@
 class Solution:
-    def longestConsecutive(self, nums: List[int]) -> int:
-        maxStreak = 0
-        s = set()
-
-        for num in nums:
-            s.add(num)
+    def longestConsecutive(self, nums: list[int]) -> int:
+        maxLength = 0
+        s = set(nums)
 
         for num in s:
-            # Only start counting when num is the start of a sequence
             if num - 1 in s:
                 continue
-            
-            curStreak = 1
-            curNum = num
 
-            while curNum + 1 in s:
-                curStreak += 1
-                curNum = curNum + 1
+            length = 1
+            cur = num
+            while cur + 1 in s:
+                length += 1
+                cur += 1
             
-            maxStreak = max(maxStreak, curStreak)
-            
+            maxLength = max(maxLength, length)
         
-        return maxStreak
+        return maxLength
         
