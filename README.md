@@ -574,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1551-minimum-operations-to-make-array-equal](https://github.com/Trinav2001/leetcode/tree/master/1551-minimum-operations-to-make-array-equal) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2235-add-two-integers](https://github.com/Trinav2001/leetcode/tree/master/2235-add-two-integers) |
 ## Stack
 |  |
 | ------- |
