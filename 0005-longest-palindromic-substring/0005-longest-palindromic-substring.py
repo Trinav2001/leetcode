@@ -3,7 +3,7 @@ class Solution:
         resLen = 0
         resIdx = 0
 
-        for i in range(len(s) - 1):
+        for i in range(len(s)):
             l, r = i, i
             while l >= 0 and r < len(s) and s[l] == s[r]:
                 if resLen < (r - l + 1):
