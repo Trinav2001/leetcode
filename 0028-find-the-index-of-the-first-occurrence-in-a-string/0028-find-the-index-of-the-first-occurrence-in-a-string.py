@@ -4,14 +4,8 @@ class Solution:
             return -1
 
         for k in range(len(haystack) - len(needle) + 1):
-            i = k
-            j = 0
-
-            while i < len(haystack) and j < len(needle) and haystack[i] == needle[j]:
-                i += 1
-                j += 1
             
-            if j == len(needle):
+            if haystack[k : k + len(needle)] == needle:
                 return k
         
         return -1
