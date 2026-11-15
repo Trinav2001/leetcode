@@ -3,7 +3,7 @@ class Solution:
         l = 1
         r = max(piles)
 
-        while l < r:
+        while l <= r:
             m = l + (r - l) // 2
 
             time = 0
@@ -14,7 +14,7 @@ class Solution:
                 l = m + 1
             
             else:
-                r = m
+                r = m - 1
         
         return l
         
