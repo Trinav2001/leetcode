@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0427-construct-quad-tree](https://github.com/Trinav2001/leetcode/tree/master/0427-construct-quad-tree) |
 | [0435-non-overlapping-intervals](https://github.com/Trinav2001/leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0473-matchsticks-to-square](https://github.com/Trinav2001/leetcode/tree/master/0473-matchsticks-to-square) |
+| [0485-max-consecutive-ones](https://github.com/Trinav2001/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Trinav2001/leetcode/tree/master/0494-target-sum) |
 | [0502-ipo](https://github.com/Trinav2001/leetcode/tree/master/0502-ipo) |
 | [0518-coin-change-ii](https://github.com/Trinav2001/leetcode/tree/master/0518-coin-change-ii) |
