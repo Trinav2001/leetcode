@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0473-matchsticks-to-square](https://github.com/Trinav2001/leetcode/tree/master/0473-matchsticks-to-square) |
 | [0485-max-consecutive-ones](https://github.com/Trinav2001/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Trinav2001/leetcode/tree/master/0494-target-sum) |
+| [0496-next-greater-element-i](https://github.com/Trinav2001/leetcode/tree/master/0496-next-greater-element-i) |
 | [0502-ipo](https://github.com/Trinav2001/leetcode/tree/master/0502-ipo) |
 | [0518-coin-change-ii](https://github.com/Trinav2001/leetcode/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/Trinav2001/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/Trinav2001/leetcode/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/Trinav2001/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0460-lfu-cache](https://github.com/Trinav2001/leetcode/tree/master/0460-lfu-cache) |
+| [0496-next-greater-element-i](https://github.com/Trinav2001/leetcode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/Trinav2001/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Trinav2001/leetcode/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/Trinav2001/leetcode/tree/master/0621-task-scheduler) |
@@ -598,6 +600,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/Trinav2001/leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Trinav2001/leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0394-decode-string](https://github.com/Trinav2001/leetcode/tree/master/0394-decode-string) |
+| [0496-next-greater-element-i](https://github.com/Trinav2001/leetcode/tree/master/0496-next-greater-element-i) |
 | [0682-baseball-game](https://github.com/Trinav2001/leetcode/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/Trinav2001/leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Trinav2001/leetcode/tree/master/0739-daily-temperatures) |
@@ -613,6 +616,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Trinav2001/leetcode/tree/master/0042-trapping-rain-water) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Trinav2001/leetcode/tree/master/0084-largest-rectangle-in-histogram) |
+| [0496-next-greater-element-i](https://github.com/Trinav2001/leetcode/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/Trinav2001/leetcode/tree/master/0739-daily-temperatures) |
 | [0853-car-fleet](https://github.com/Trinav2001/leetcode/tree/master/0853-car-fleet) |
 | [0883-car-fleet](https://github.com/Trinav2001/leetcode/tree/master/0883-car-fleet) |
