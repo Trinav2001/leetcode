@@ -1,7 +1,7 @@
 class Solution:
     def letterCombinations(self, digits: str) -> list[str]:
-        res = []
-        digitToChar = {
+
+        digitsToChar = {
             "2": "abc",
             "3": "def",
             "4": "ghi",
@@ -12,15 +12,17 @@ class Solution:
             "9": "wxyz",
         }
 
+        output = []
+
         def dfs(i, curStr):
             if len(curStr) == len(digits):
-                res.append(curStr)
+                output.append(curStr)
                 return
             
-            for c in digitToChar[digits[i]]:
+            for c in digitsToChar[digits[i]]:
                 dfs(i + 1, curStr + c)
-        
+                
 
         dfs(0, "")
-
-        return res
+        return output
+        
