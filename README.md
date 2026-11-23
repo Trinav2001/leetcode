@@ -261,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-longest-common-subsequence](https://github.com/Trinav2001/leetcode/tree/master/1143-longest-common-subsequence) |
 | [1304-longest-happy-string](https://github.com/Trinav2001/leetcode/tree/master/1304-longest-happy-string) |
 | [1768-merge-strings-alternately](https://github.com/Trinav2001/leetcode/tree/master/1768-merge-strings-alternately) |
+| [1871-jump-game-vii](https://github.com/Trinav2001/leetcode/tree/master/1871-jump-game-vii) |
 | [1894-merge-strings-alternately](https://github.com/Trinav2001/leetcode/tree/master/1894-merge-strings-alternately) |
 | [2390-removing-stars-from-a-string](https://github.com/Trinav2001/leetcode/tree/master/2390-removing-stars-from-a-string) |
 ## Trie
@@ -443,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Trinav2001/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Trinav2001/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1184-car-pooling](https://github.com/Trinav2001/leetcode/tree/master/1184-car-pooling) |
+| [1871-jump-game-vii](https://github.com/Trinav2001/leetcode/tree/master/1871-jump-game-vii) |
 ## Matrix
 |  |
 | ------- |
@@ -510,6 +512,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0747-min-cost-climbing-stairs](https://github.com/Trinav2001/leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [1137-n-th-tribonacci-number](https://github.com/Trinav2001/leetcode/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/Trinav2001/leetcode/tree/master/1143-longest-common-subsequence) |
+| [1871-jump-game-vii](https://github.com/Trinav2001/leetcode/tree/master/1871-jump-game-vii) |
 ## Greedy
 |  |
 | ------- |
@@ -633,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/Trinav2001/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Trinav2001/leetcode/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/Trinav2001/leetcode/tree/master/0658-find-k-closest-elements) |
+| [1871-jump-game-vii](https://github.com/Trinav2001/leetcode/tree/master/1871-jump-game-vii) |
 ## Queue
 |  |
 | ------- |
