@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/Trinav2001/leetcode/tree/master/1127-last-stone-weight) |
 | [1184-car-pooling](https://github.com/Trinav2001/leetcode/tree/master/1184-car-pooling) |
 | [1185-find-in-mountain-array](https://github.com/Trinav2001/leetcode/tree/master/1185-find-in-mountain-array) |
+| [1480-running-sum-of-1d-array](https://github.com/Trinav2001/leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [1539-kth-missing-positive-number](https://github.com/Trinav2001/leetcode/tree/master/1539-kth-missing-positive-number) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [1929-concatenation-of-array](https://github.com/Trinav2001/leetcode/tree/master/1929-concatenation-of-array) |
@@ -451,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0410-split-array-largest-sum](https://github.com/Trinav2001/leetcode/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/Trinav2001/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1184-car-pooling](https://github.com/Trinav2001/leetcode/tree/master/1184-car-pooling) |
+| [1480-running-sum-of-1d-array](https://github.com/Trinav2001/leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [1871-jump-game-vii](https://github.com/Trinav2001/leetcode/tree/master/1871-jump-game-vii) |
 ## Matrix
 |  |
