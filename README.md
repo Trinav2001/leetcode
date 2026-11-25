@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1184-car-pooling](https://github.com/Trinav2001/leetcode/tree/master/1184-car-pooling) |
 | [1185-find-in-mountain-array](https://github.com/Trinav2001/leetcode/tree/master/1185-find-in-mountain-array) |
 | [1480-running-sum-of-1d-array](https://github.com/Trinav2001/leetcode/tree/master/1480-running-sum-of-1d-array) |
+| [1502-can-make-arithmetic-progression-from-sequence](https://github.com/Trinav2001/leetcode/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
 | [1539-kth-missing-positive-number](https://github.com/Trinav2001/leetcode/tree/master/1539-kth-missing-positive-number) |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/Trinav2001/leetcode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [1929-concatenation-of-array](https://github.com/Trinav2001/leetcode/tree/master/1929-concatenation-of-array) |
@@ -224,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/Trinav2001/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/Trinav2001/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1184-car-pooling](https://github.com/Trinav2001/leetcode/tree/master/1184-car-pooling) |
+| [1502-can-make-arithmetic-progression-from-sequence](https://github.com/Trinav2001/leetcode/tree/master/1502-can-make-arithmetic-progression-from-sequence) |
 | [1962-single-threaded-cpu](https://github.com/Trinav2001/leetcode/tree/master/1962-single-threaded-cpu) |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/Trinav2001/leetcode/tree/master/2357-make-array-zero-by-subtracting-equal-amounts) |
 | [2545-sort-the-students-by-their-kth-score](https://github.com/Trinav2001/leetcode/tree/master/2545-sort-the-students-by-their-kth-score) |
