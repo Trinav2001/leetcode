@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0417-pacific-atlantic-water-flow](https://github.com/Trinav2001/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0427-construct-quad-tree](https://github.com/Trinav2001/leetcode/tree/master/0427-construct-quad-tree) |
 | [0435-non-overlapping-intervals](https://github.com/Trinav2001/leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Trinav2001/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0473-matchsticks-to-square](https://github.com/Trinav2001/leetcode/tree/master/0473-matchsticks-to-square) |
 | [0485-max-consecutive-ones](https://github.com/Trinav2001/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/Trinav2001/leetcode/tree/master/0494-target-sum) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Trinav2001/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Trinav2001/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0435-non-overlapping-intervals](https://github.com/Trinav2001/leetcode/tree/master/0435-non-overlapping-intervals) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Trinav2001/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0502-ipo](https://github.com/Trinav2001/leetcode/tree/master/0502-ipo) |
 | [0621-task-scheduler](https://github.com/Trinav2001/leetcode/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/Trinav2001/leetcode/tree/master/0658-find-k-closest-elements) |
@@ -594,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/Trinav2001/leetcode/tree/master/0202-happy-number) |
 | [0268-missing-number](https://github.com/Trinav2001/leetcode/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/Trinav2001/leetcode/tree/master/0279-perfect-squares) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/Trinav2001/leetcode/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0973-k-closest-points-to-origin](https://github.com/Trinav2001/leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1014-k-closest-points-to-origin](https://github.com/Trinav2001/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Trinav2001/leetcode/tree/master/1071-greatest-common-divisor-of-strings) |
