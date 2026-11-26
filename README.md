@@ -1033,4 +1033,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/Trinav2001/leetcode/tree/master/0056-merge-intervals) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/Trinav2001/leetcode/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
