@@ -179,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Trinav2001/leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/Trinav2001/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0355-design-twitter](https://github.com/Trinav2001/leetcode/tree/master/0355-design-twitter) |
+| [0383-ransom-note](https://github.com/Trinav2001/leetcode/tree/master/0383-ransom-note) |
 | [0424-longest-repeating-character-replacement](https://github.com/Trinav2001/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0460-lfu-cache](https://github.com/Trinav2001/leetcode/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Trinav2001/leetcode/tree/master/0496-next-greater-element-i) |
@@ -263,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/Trinav2001/leetcode/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Trinav2001/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0344-reverse-string](https://github.com/Trinav2001/leetcode/tree/master/0344-reverse-string) |
+| [0383-ransom-note](https://github.com/Trinav2001/leetcode/tree/master/0383-ransom-note) |
 | [0394-decode-string](https://github.com/Trinav2001/leetcode/tree/master/0394-decode-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Trinav2001/leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/Trinav2001/leetcode/tree/master/0567-permutation-in-string) |
@@ -307,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Trinav2001/leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Trinav2001/leetcode/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Trinav2001/leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0383-ransom-note](https://github.com/Trinav2001/leetcode/tree/master/0383-ransom-note) |
 | [0621-task-scheduler](https://github.com/Trinav2001/leetcode/tree/master/0621-task-scheduler) |
 | [0767-reorganize-string](https://github.com/Trinav2001/leetcode/tree/master/0767-reorganize-string) |
 | [0778-reorganize-string](https://github.com/Trinav2001/leetcode/tree/master/0778-reorganize-string) |
