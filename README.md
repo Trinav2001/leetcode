@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Trinav2001/leetcode/tree/master/0054-spiral-matrix) |
+| [0067-add-binary](https://github.com/Trinav2001/leetcode/tree/master/0067-add-binary) |
 | [0682-baseball-game](https://github.com/Trinav2001/leetcode/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/Trinav2001/leetcode/tree/master/0735-asteroid-collision) |
 | [0867-transpose-matrix](https://github.com/Trinav2001/leetcode/tree/master/0867-transpose-matrix) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Trinav2001/leetcode/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Trinav2001/leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/Trinav2001/leetcode/tree/master/0049-group-anagrams) |
+| [0067-add-binary](https://github.com/Trinav2001/leetcode/tree/master/0067-add-binary) |
 | [0071-simplify-path](https://github.com/Trinav2001/leetcode/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/Trinav2001/leetcode/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/Trinav2001/leetcode/tree/master/0076-minimum-window-substring) |
@@ -591,6 +593,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Trinav2001/leetcode/tree/master/0013-roman-to-integer) |
 | [0062-unique-paths](https://github.com/Trinav2001/leetcode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/Trinav2001/leetcode/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/Trinav2001/leetcode/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/Trinav2001/leetcode/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/Trinav2001/leetcode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Trinav2001/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -722,6 +725,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Trinav2001/leetcode/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/Trinav2001/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Trinav2001/leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/Trinav2001/leetcode/tree/master/0136-single-number) |
